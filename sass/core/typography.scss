@@ -26,8 +26,24 @@
 // =================================================================
 
 body {
-	  font-family: $base-font-family;
-	  font-size: 18px;
+	font-family: $base-font-family;
+	font-size: 18px;
+
+	@include mq("medium", "max-width") {
+		font-size: 18px;
+	}
+
+	@include mq("small", "max-width") {
+		font-size: 18px;
+	}
+
+	@include mq("extra-small", "max-width") {
+		font-size: 18px;
+	}
+
+	@include mq("super-small", "max-width") {
+		font-size: 14px;
+	}
 }
 
 h1, h2, h3, h4 {

@@ -32,10 +32,14 @@
 		}
 	}
 
-	@include mq("medium", "max-width") {
+	@include mq("small", "max-width") {
 		.col-6 {
 			@include calc(width, "100%");
 		}
+	}
+
+	@include mq("super-small", "max-width") {
+		padding: 130px 0 150px 0;
 	}
 }
 
@@ -44,28 +48,28 @@
 }
 
 .discovery-item {
-	 @include aspect-ratio(16, 9);
-	 width: 100%;
-	 background: $colorType;
-	 display: block;
-	 cursor: pointer;
-	 position: relative;
+	@include aspect-ratio(16, 9);
+	width: 100%;
+	background: $colorType;
+	display: block;
+	cursor: pointer;
+	position: relative;
 
-	 h2, p {
-	 	color: #fff;
-	 	top: 0;
-	 	position: absolute;
-	 	text-align: center;
-	 	display: block;
-	 	margin: 0 auto;
-	 	width: 100%;
-	 }
+	h2, p {
+		color: #fff;
+		top: 0;
+		position: absolute;
+		text-align: center;
+		display: block;
+		margin: 0 auto;
+		width: 100%;
+	}
 
-	 h2 {
-	 	top: 30%;
-	 }
+	h2 {
+	 top: 30%;
+	}
 
-	 p {
+	p {
 	 	display: block;
 	 	margin: 0 auto;
 	 	top: 45%;

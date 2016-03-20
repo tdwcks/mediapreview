@@ -60,11 +60,13 @@ header {
 
 	@include mq("medium", "max-width") {
 		nav ul li {
-			padding-left: 19px;
+			padding-left: 23px;
 		}
 	}
 
 	@include mq("small", "max-width") {
+		padding: 30px 0;
+
 		nav {
 			display: none;
 			clear: both;

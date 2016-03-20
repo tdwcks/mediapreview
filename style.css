@@ -215,6 +215,18 @@ body {
 body {
   font-family: "GT", sans-serif;
   font-size: 18px; }
+  @media (max-width: 1130px) {
+    body {
+      font-size: 18px; } }
+  @media (max-width: 960px) {
+    body {
+      font-size: 18px; } }
+  @media (max-width: 760px) {
+    body {
+      font-size: 18px; } }
+  @media (max-width: 595px) {
+    body {
+      font-size: 14px; } }
 
 h1, h2, h3, h4 {
   font-weight: inherit;
@@ -834,54 +846,56 @@ header {
       border-bottom: 0; }
   @media (max-width: 1130px) {
     header nav ul li {
-      padding-left: 19px; } }
+      padding-left: 23px; } }
   @media (max-width: 960px) {
-    header nav {
-      display: none;
-      clear: both;
-      background: #fff;
-      position: absolute;
-      z-index: 10;
-      top: 50px;
-      left: 0;
-      width: 100%;
-      margin: 0;
-      float: none; }
-      header nav ul {
-        padding: 0;
+    header {
+      padding: 30px 0; }
+      header nav {
+        display: none;
+        clear: both;
+        background: #fff;
+        position: absolute;
+        z-index: 10;
+        top: 50px;
+        left: 0;
+        width: 100%;
         margin: 0;
-        width: 100%;
-        box-sizing: border-box; }
-      header nav ul li:last-child {
-        margin-top: -2px; }
-      header nav ul li {
-        padding: 0;
-        margin: 0;
-        width: 100%;
-        float: none;
-        text-align: center;
-        border-bottom: 1px solid #A6A6A6; }
-      header nav a {
-        display: block;
-        text-align: center;
-        width: 100%;
-        padding: 15px 0;
-        color: #3B3B3B; }
-      header nav a:hover {
-        border-bottom: 0; }
-      header nav a.link-btn-one {
-        width: 100%;
-        background: none;
-        padding: 15px 0;
-        font-size: 1em;
-        text-align: center;
-        float: none;
-        text-transform: none;
-        letter-spacing: 0;
-        box-sizing: border-box;
-        color: #FF5B34; }
-    header a.menu-trigger {
-      display: block; } }
+        float: none; }
+        header nav ul {
+          padding: 0;
+          margin: 0;
+          width: 100%;
+          box-sizing: border-box; }
+        header nav ul li:last-child {
+          margin-top: -2px; }
+        header nav ul li {
+          padding: 0;
+          margin: 0;
+          width: 100%;
+          float: none;
+          text-align: center;
+          border-bottom: 1px solid #A6A6A6; }
+        header nav a {
+          display: block;
+          text-align: center;
+          width: 100%;
+          padding: 15px 0;
+          color: #3B3B3B; }
+        header nav a:hover {
+          border-bottom: 0; }
+        header nav a.link-btn-one {
+          width: 100%;
+          background: none;
+          padding: 15px 0;
+          font-size: 1em;
+          text-align: center;
+          float: none;
+          text-transform: none;
+          letter-spacing: 0;
+          box-sizing: border-box;
+          color: #FF5B34; }
+      header a.menu-trigger {
+        display: block; } }
 
 a {
   cursor: pointer;
@@ -925,11 +939,14 @@ a {
       width: -moz-calc(66.64% - 10px);
       width: -webkit-calc(66.64% - 10px);
       width: calc(66.64% - 10px); } }
-  @media (max-width: 1130px) {
+  @media (max-width: 960px) {
     .hero .col-6 {
       width: -moz-calc(100%);
       width: -webkit-calc(100%);
       width: calc(100%); } }
+  @media (max-width: 595px) {
+    .hero {
+      padding: 130px 0 150px 0; } }
 
 .discovery {
   margin: 2% 0; }
