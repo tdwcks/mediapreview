@@ -5,36 +5,126 @@
 
 header {
 	width: 100%;
-	height: auto;
+	height: 400px;
+	padding: 50px 0;
 	overflow: auto;
 	position: absolute;
 	top: 0;
 	left: 0;
 
-	h4 {
+	a.menu-trigger {
+		float: right;
 		color: #fff;
+		display: none;
+	}
+
+	h1 {
+		font-size: 1.1em;
+		color: #fff;
+		float: left;
 	}
 
 	nav {
-		ul li {
-			list-style-type: none;
-			float: left;
-			padding-left: 40px;
+		float: right;
+
+		ul {
+			float: right;
 		}
 
-		ul li:first-child {
-			padding-left: 0;
+		ul, li {
+			padding: 0;
+		}
+
+		ul li {
+			list-style-type: none;
+			padding-left: 40px;
+			float: left;
+		}
+
+		ul li:last-child {
+			margin-top: -2px;
 		}
 
 		a {
-			opacity: 0.7;
+			color: #fff;
+		}
+
+		a:hover {
+			border-bottom: 2px solid #fff;
+		}
+
+		a.link-btn-one:hover {
+			border-bottom: 0;
 		}
 	}
 
-	@include mq("extra-small", "max-width") {
-		
-		ul li {
-			padding-left: 30px;
+	@include mq("medium", "max-width") {
+		nav ul li {
+			padding-left: 19px;
+		}
+	}
+
+	@include mq("small", "max-width") {
+		nav {
+			display: none;
+			clear: both;
+			background: #fff;
+			position: absolute;
+			z-index: 10;
+			top: 50px;
+			left: 0;
+			width: 100%;
+			margin: 0;
+			float: none;
+
+			ul {
+				padding: 0;
+				margin: 0;
+				width: 100%;
+				box-sizing: border-box;
+			}
+
+			ul li:last-child {
+				margin-top: -2px;
+			}
+
+			ul li {
+				padding: 0;
+				margin: 0;
+				width: 100%;
+				float: none;
+				text-align: center;
+				border-bottom: 1px solid $colorGrey;
+			}
+
+			a {
+				display: block;
+				text-align: center;
+				width: 100%;
+				padding: 15px 0;
+				color: $colorType;
+			}
+
+			a:hover {
+				border-bottom: 0;
+			}
+
+			a.link-btn-one {
+				width: 100%;
+				background: none;
+				padding: 15px 0;
+				font-size: 1em;
+				text-align: center;
+				float: none;
+				text-transform: none;
+				letter-spacing: 0;
+				box-sizing: border-box;
+				color: $colorOne;
+			}
+		}
+
+		a.menu-trigger {
+			display: block;
 		}
 	}
 }

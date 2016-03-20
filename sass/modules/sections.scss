@@ -1,0 +1,109 @@
+// =================================================================
+// 	Mediapreview
+// 	Sections
+// =================================================================
+
+.hero {
+	width: 100%;
+	height: auto;
+	padding: 200px 0 150px 0;
+	background: $colorType;
+
+	.col-6 {
+		display: block;
+		margin: 0 auto;
+		float: none;
+	}
+
+	h2 {
+		color: #fff;
+		text-align: center;
+	}
+
+	.link-btn-one {
+		display: block;
+		margin: 40px auto 0 auto;
+		float: none;
+	}
+
+	@include mq("medium", "max-width") {
+		.col-6 {
+			@include calc(width, "66.64% - 10px");
+		}
+	}
+
+	@include mq("medium", "max-width") {
+		.col-6 {
+			@include calc(width, "100%");
+		}
+	}
+}
+
+.discovery {
+	margin: $grid-spacing 0;
+}
+
+.discovery-item {
+	 @include aspect-ratio(16, 9);
+	 width: 100%;
+	 background: $colorType;
+	 display: block;
+	 cursor: pointer;
+	 position: relative;
+
+	 h2, p {
+	 	color: #fff;
+	 	top: 0;
+	 	position: absolute;
+	 	text-align: center;
+	 	display: block;
+	 	margin: 0 auto;
+	 	width: 100%;
+	 }
+
+	 h2 {
+	 	top: 30%;
+	 }
+
+	 p {
+	 	display: block;
+	 	margin: 0 auto;
+	 	top: 45%;
+	 	float: none;
+	 	width: 68%;
+	 	margin-left: -35%;
+	 	left: 50%;
+	}
+}
+
+.video {
+	background: $colorType;
+	width: 100%;
+	height: auto;
+	overflow: auto;
+	padding: 50px 0 75px 0;
+
+	.image {
+		background: darken($colorType, 10%);
+	}
+
+	h2 {
+		text-align: center;
+		color: #fff;
+		padding-bottom: 50px;
+	}
+
+	h4, p {
+		padding: 0;
+		color: #fff;
+		padding-bottom: 23px;
+	}
+
+	p {
+		opacity: 0.8;
+	}
+
+	.link-btn-one {
+		margin-top: 8px;
+	}
+}

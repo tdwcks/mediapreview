@@ -7,11 +7,16 @@
   position: relative;
   display: block;
   margin: 0 auto;
-  width: 97%;
+  @include calc(width, "100% - 60px");
+  max-width: 1400px;
+}
 
-  @include mq("medium") {
-    width: 95%;
-  }
+.grid-inner {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  @include calc(width, "100% - 120px");
+  max-width: 1200px;
 }
 
 %clearfix:after {
@@ -20,13 +25,21 @@
     content:'';
 }
 
-$grid-spacing:4%;
+$grid-spacing:2%;
+
+@include mq("medium", "max-width") {
+  $grid-spacing:4%;
+}
+
+ @include mq("extra-small", "max-width") {
+    width: 90%;
+  }
 
 .row {
     @extend %clearfix;
 
     & + & {
-        margin-top:$grid-spacing;
+        margin-top: 30px;
     }
 }
 
@@ -52,98 +65,95 @@ $grid-spacing:4%;
   height: 1px;
 }
 
-.col-1 {
-  width:(100% / 12) - ($grid-spacing * 11 / 12);
-}
-
-.shift-1 {
-  margin-left:(100% / 12) - ($grid-spacing * 11 / 12);
-}
-
-.col-2 {
-  width:(100% / 6) - ($grid-spacing * 10 / 12);
-}
-
-.shift-2 {
-  margin-left:(100% / 6) - ($grid-spacing * 11 / 12);
-}
-
-.col-3 {
-  width:(100% / 4) - ($grid-spacing * 9 / 12);
-}
-
-.shift-3 {
-  margin-left:(100% / 4) - ($grid-spacing * 9 / 12);
-}
-
-.col-4 {
-  width:(100% / 3) - ($grid-spacing * 8 / 12);
-}
-
-.shift-4 {
-  margin-left:(100% / 3) - ($grid-spacing * 8 / 12);
-}
-
-.col-5 {
- width:(100% / 2.4) - ($grid-spacing * 7 / 12);
-}
-
-.shift-5 {
- margin-left:(100% / 2.4) - ($grid-spacing * 7 / 12);
-}
-
-.col-6 {
-  width:(100% / 2) - ($grid-spacing * 6 / 12);
-}
-
-.shift-6 {
-  margin-left:(100% / 2) - ($grid-spacing * 6 / 12);
-}
-
-.col-7 {
-	width:(100% / 1.714285714285714) - ($grid-spacing * 5 / 12);
-}
-
-.shift-7 {
-	margin-left:(100% / 1.714285714285714) - ($grid-spacing * 5 / 12);
+.row {
+  clear: both;
+  width: 100%;
+  margin: 30px 0;
 }
 
 .col-8 {
-	width:(100% / 1.5) - ($grid-spacing * 4 / 12);
+  position: relative;
+  margin-right: 30px;
+  float: left;
+  @include calc(width, "66.64% - 10px");
+
+  @include mq("small", "max-width") {
+    margin-right: 20px;
+    @include calc(width, "66.64% - 8px");
+  }
 }
 
-.shift-8 {
-	margin-left:(100% / 1.5) - ($grid-spacing * 4 / 12);
+.shift-6 {
+  position: relative;
+  @include calc(margin-left, "50% + 15px");
+
+  @include mq("small", "max-width") {
+    @include calc(margin-left, "66.64% - 10px");
+  }
 }
 
-.col-9 {
-	width:(100% / 1.333333333333333) - ($grid-spacing * 3 / 12);
+.col-6 {
+  position: relative;
+  margin-right: 30px;
+  float: left;
+  @include calc(width, "50% - 15px");
+
+  @include mq("small", "max-width") {
+    margin-right: 20px;
+    @include calc(width, "66.64% - 10px");
+  }
 }
 
-.shift-9 {
-	margin-left:(100% / 1.333333333333333) - ($grid-spacing * 3 / 12);
+.shift-4 {
+  position: relative;
+  @include calc(margin-left, "33.3% + 10px");
+
+  @include mq("small", "max-width") {
+    @include calc(margin-left, "66.64% - 8px");
+  }
 }
 
-.col-10 {
-	width:(100% / 1.2) - ($grid-spacing * 2 / 12);
+.col-4 {
+  margin-right: 30px;
+  float: left;
+  @include calc(width, "33.3% - 20px");
+
+  @include mq("small", "max-width") {
+    @include calc(width, "50% - 10px");
+  }
 }
 
-.shift-10 {
-	margin-left:(100% / 1.2) - ($grid-spacing * 2 / 12);
+.shift-3 {
+  @include calc(margin-left, "25% + 6px");
 }
 
-.col-11 {
-	width:(100% / 1.090909090909091) - ($grid-spacing * 1 / 12);
+.col-3 {
+  margin-right: 24px;
+  float: left;
+  @include calc(width, "25% - 18px");
+
+  &:nth-child(4) {
+    margin-right: 0;
+  }
 }
 
-.shift-11 {
-	margin-left:(100% / 1.090909090909091) - ($grid-spacing * 1 / 12);
+.shift-2 {
+  @include calc(margin-left, "16.6667% + 4px");
 }
 
-.col-12 {
-	width:100%;
+.col-2 {
+  margin-right: 24px;
+  float: left;
+  @include calc(width, "16.6667% - 25px");
 }
 
-.shift-12 {
-	margin-left:100%;
+.shift-1 {
+  @include calc(margin-left, "8.33% + 2px");
+  display: block;
+}
+
+.col-1 {
+    @include calc(width, "8.33% - 24px");
+    float: left;
+    display: block;
 }

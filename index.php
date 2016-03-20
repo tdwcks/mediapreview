@@ -2,6 +2,7 @@
 <html>
 <head>
 <link href="style.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>MediaPreview &#8594; Home </title>
 </head>
 <body>
@@ -22,19 +23,19 @@
 				<div class="row">
 					<div class="col-4">
 						<a class="discovery-item" href="">
-							<h3>Movies</h3>
+							<h2>Movies</h2>
 							<p>Films for commercial, public sector &amp; Community Clients  </p>
 						</a> <!-- discovery-item -->
 					</div> <!-- col-4 -->
 					<div class="col-4">
 						<a class="discovery-item" href="">
-							<h3>Movies</h3>
+							<h2>Movies</h2>
 							<p>Films for commercial, public sector &amp; Community Clients  </p>
 						</a> <!-- discovery-item -->
 					</div> <!-- col-4 -->
 					<div class="col-4">
 						<a class="discovery-item" href="">
-							<h3>Movies</h3>
+							<h2>Movies</h2>
 							<p>Films for commercial, public sector &amp; Community Clients  </p>
 						</a> <!-- discovery-item -->
 					</div> <!-- col-4 -->
@@ -42,19 +43,19 @@
 				<div class="row">
 					<div class="col-4">
 						<a class="discovery-item" href="">
-							<h3>Movies</h3>
+							<h2>Movies</h2>
 							<p>Films for commercial, public sector &amp; Community Clients  </p>
 						</a> <!-- discovery-item -->
 					</div> <!-- col-4 -->
 					<div class="col-4">
 						<a class="discovery-item" href="">
-							<h3>Movies</h3>
+							<h2>Movies</h2>
 							<p>Films for commercial, public sector &amp; Community Clients  </p>
 						</a> <!-- discovery-item -->
 					</div> <!-- col-4 -->
 					<div class="col-4">
 						<a class="discovery-item" href="">
-							<h3>Movies</h3>
+							<h2>Movies</h2>
 							<p>Films for commercial, public sector &amp; Community Clients  </p>
 						</a> <!-- discovery-item -->
 					</div> <!-- col-4 -->
@@ -62,19 +63,19 @@
 			</div> <!-- grid-container -->
 		</section> <!-- discovery -->
 		<section class="video">
-			<div class="grid-container">
+			<div class="grid-inner">
 				<div class="row">
 					<h2>Latest Video</h2>
 				</div>
-				<div class="col-5">
+				<div class="col-6">
 					<div class="image">
 						
 					</div> <!-- image -->
 				</div> <!-- col-5 -->
-				<div class="col-4 shift-1">
+				<div class="col-6">
 					<h4>Train of Thought</h4>
-					<p>The Pasticceria Soriani is an excellent pastry shops based in Rimini. For this client, we have designed a complete rebranding work, including: logos, flyers and brochures, packaging, ads.</p>
-					<p>The Pasticceria Soriani is an excellent pastry shops based in Rimini. For this client, we have designed a complete rebranding work, including: logos, flyers and brochures, packaging, ads.</p>
+					<p>The Pasticceria Soriani is an excellent pastry shops based in Rimini. For this client, we have designed a complete rebranding work.</p>
+					<p>The Pasticceria Soriani is an excellent pastry shops based in Rimini. For this client, we have designed a complete rebranding work.</p>
 					<a class="link-btn-one">View More Videos</a>
 				</div> <!-- col-4 shift-1 -->
 			</div> <!-- grid-container -->
