@@ -2,7 +2,7 @@
 	<div class="grid-container">
 		<div class="col-4">
 			<h1>Mediapreview</h1>
-		</div>
+		</div> <!-- col-4 -->
 		<div class="col-6">
 			<nav>
 				<ul>
@@ -15,6 +15,6 @@
 					<li><a class="link-btn-one" href="">Contact Us</a></li>
 				</ul>
 			</nav>
-		</div>
-	</div>
+		</div> <!-- col-6 -->
+	</div> <!-- grid-container -->
 </header>
