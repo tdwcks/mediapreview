@@ -1,0 +1,20 @@
+// 4D 69 6C 6E  4C 74 64
+// =================================================================
+// 	Mediapreview
+// 	Footer
+// =================================================================
+
+footer {
+	width: 100%;
+	height: auto;
+	overflow: auto;
+	padding: 60px 0 40px 0;
+	margin-top: 100px;
+	margin-bottom: 0;
+	background: #ddd;
+
+	a {
+		float: right;
+		color: $colorTwo;
+	}
+}

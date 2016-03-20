@@ -1,0 +1,37 @@
+// =================================================================
+// 	Mediapreview
+// 	Header
+// =================================================================
+
+header {
+	width: 100%;
+	height: auto;
+	overflow: auto;
+
+	h4 {
+		color: #fff;
+	}
+
+	nav {
+		ul li {
+			list-style-type: none;
+			float: left;
+			padding-left: 40px;
+		}
+
+		ul li:first-child {
+			padding-left: 0;
+		}
+
+		a {
+			opacity: 0.7;
+		}
+	}
+
+	@include mq("extra-small", "max-width") {
+		
+		ul li {
+			padding-left: 30px;
+		}
+	}
+}
