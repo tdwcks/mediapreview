@@ -4,8 +4,8 @@
 		<a class="menu-trigger">Menu</a>
 		<nav>
 			<ul>
-				<li><a href="">Home</a></li>
-				<li><a href="">About</a></li>
+				<li><a href="index.php">Home</a></li>
+				<li><a href="about.php">About</a></li>
 				<li><a href="">Tutorials</a></li>
 				<li><a href="">Movies</a></li>
 				<li><a href="">8mm Distress Kit</a></li>
