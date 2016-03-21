@@ -73,6 +73,11 @@ body {
   width: -webkit-calc(100% - 120px);
   width: calc(100% - 120px);
   max-width: 1200px; }
+  @media (max-width: 960px) {
+    .grid-inner {
+      width: -moz-calc(100% - 60px);
+      width: -webkit-calc(100% - 60px);
+      width: calc(100% - 60px); } }
 
 .row:after {
   display: block;
@@ -809,6 +814,18 @@ footer {
     color: #A6A6A6; }
   footer a:hover {
     color: #3B3B3B; }
+  @media (max-width: 960px) {
+    footer .col-4 {
+      width: 100%;
+      margin: 3px 0;
+      display: block;
+      clear: both; }
+      footer .col-4 a {
+        display: block;
+        margin-bottom: 5px; } }
+  @media (max-width: 760px) {
+    footer p, footer a {
+      font-size: 1em; } }
 
 header {
   width: 100%;
@@ -949,7 +966,19 @@ a {
       padding: 130px 0 150px 0; } }
 
 .discovery {
-  margin: 2% 0; }
+  margin: 30px 0 0 0; }
+  .discovery .row {
+    margin-bottom: 0; }
+  @media (max-width: 960px) {
+    .discovery .col-4 {
+      width: -moz-calc(50% - 15px);
+      width: -webkit-calc(50% - 15px);
+      width: calc(50% - 15px); }
+    .discovery .col-4:nth-child(2), .discovery .col-4:nth-child(4), .discovery .col-4:nth-child(6) {
+      margin-right: 0; } }
+  @media (max-width: 760px) {
+    .discovery .col-4 {
+      width: 100%; } }
 
 .discovery-item {
   position: relative;
@@ -957,7 +986,8 @@ a {
   background: #3B3B3B;
   display: block;
   cursor: pointer;
-  position: relative; }
+  position: relative;
+  margin-bottom: 30px; }
   .discovery-item:before {
     display: block;
     content: "";
@@ -987,6 +1017,16 @@ a {
     width: 68%;
     margin-left: -35%;
     left: 50%; }
+  @media (max-width: 1130px) {
+    .discovery-item h2 {
+      top: 38%; }
+    .discovery-item p {
+      display: none; } }
+  @media (max-width: 960px) {
+    .discovery-item h2 {
+      top: 27%; }
+    .discovery-item p {
+      display: block; } }
 
 .video {
   background: #3B3B3B;
@@ -1008,6 +1048,14 @@ a {
     opacity: 0.8; }
   .video .link-btn-one {
     margin-top: 8px; }
+  @media (max-width: 960px) {
+    .video {
+      padding: 20px 0 25px 0; }
+      .video h2 {
+        padding-bottom: 20px; }
+      .video .col-6 {
+        width: 100%;
+        margin-bottom: 40px; } }
 
 .splash {
   height: 100vh;

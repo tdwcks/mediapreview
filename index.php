@@ -39,8 +39,6 @@
 							<p>Films for commercial, public sector &amp; Community Clients  </p>
 						</a> <!-- discovery-item -->
 					</div> <!-- col-4 -->
-				</div> <!-- row -->
-				<div class="row">
 					<div class="col-4">
 						<a class="discovery-item" href="">
 							<h2>Movies</h2>

@@ -44,7 +44,28 @@
 }
 
 .discovery {
-	margin: $grid-spacing 0;
+	margin: 30px 0 0 0;
+
+	.row {
+		margin-bottom: 0;
+	}
+
+	@include mq("small", "max-width") {
+
+		.col-4 {
+			@include calc(width, "50% - 15px");
+		}
+
+		.col-4:nth-child(2), .col-4:nth-child(4), .col-4:nth-child(6) {
+			margin-right: 0;
+		}
+	}
+
+	@include mq("extra-small", "max-width") {
+		.col-4 {
+			width: 100%;
+		}
+	}
 }
 
 .discovery-item {
@@ -54,6 +75,7 @@
 	display: block;
 	cursor: pointer;
 	position: relative;
+	margin-bottom: 30px;
 
 	h2, p {
 		color: #fff;
@@ -77,6 +99,25 @@
 	 	width: 68%;
 	 	margin-left: -35%;
 	 	left: 50%;
+	}
+
+	@include mq("medium", "max-width") {
+		h2 {
+			top: 38%;
+		}
+		p {
+			display: none;
+		}
+	}
+
+	@include mq("small", "max-width") {
+		h2 {
+			top: 27%;
+		}
+
+		p {
+			display: block;
+		}
 	}
 }
 
@@ -109,5 +150,18 @@
 
 	.link-btn-one {
 		margin-top: 8px;
+	}
+
+	@include mq("small", "max-width") {
+		padding: 20px 0 25px 0;
+
+		h2 {
+			padding-bottom: 20px;
+		}
+
+		.col-6 {
+			width: 100%;
+			margin-bottom: 40px;
+		}
 	}
 }

@@ -17,6 +17,10 @@
   margin: 0 auto;
   @include calc(width, "100% - 120px");
   max-width: 1200px;
+
+  @include mq("small", "max-width") {
+    @include calc(width, "100% - 60px");
+  }
 }
 
 %clearfix:after {

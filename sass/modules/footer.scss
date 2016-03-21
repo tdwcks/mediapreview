@@ -19,4 +19,23 @@ footer {
 		color: $colorType;
 	}
 
+	@include mq("small", "max-width") {
+		.col-4 {
+			width: 100%;
+			margin: 3px 0;
+			display: block;
+			clear: both;
+
+			a {
+				display: block;
+				margin-bottom: 5px;
+			}
+		}
+	}
+
+	@include mq("extra-small", "max-width") {
+		p, a {
+			font-size: 1em;
+		}
+	}
 }
