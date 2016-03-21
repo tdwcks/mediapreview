@@ -50,6 +50,11 @@
 		margin-bottom: 0;
 	}
 
+	h1 {
+		color: $colorType;
+		text-align: center;
+	}
+
 	.col-4:nth-child(3), .col-4:nth-child(6) {
 		margin-right: 0;
 	}
@@ -141,15 +146,24 @@
 	}
 
 	h2 {
-		text-align: center;
 		color: #fff;
-		padding-bottom: 50px;
+		padding-bottom: 25px;
 	}
 
-	h4, p {
+	h4, p, h5 {
 		padding: 0;
 		color: #fff;
 		padding-bottom: 23px;
+	}
+
+	h5 {
+		display: block;
+		font-size: 0.7em;
+		border: 1px solid $colorGrey;
+		width: intrinsic;
+		padding: 8px 10px;
+		@include border-radius(2px);
+		margin-bottom: 23px;
 	}
 
 	p {
@@ -179,7 +193,7 @@
 	height: auto;
 	overflow: auto;
 	padding: 30px 0;
-	
+
 	.col-6 {
 		float: right;
 	}
@@ -192,5 +206,40 @@
 	padding: 50px 0;
 	.col-3 {
 		float: right;
+	}
+}
+
+.movie-picker-item {
+	display: block;
+
+	.image {
+		margin-bottom: 25px;
+	}
+
+	h2 {
+		color: $colorType;
+	}
+
+	h5 {
+		@include transition( all, 0.1s, ease-in-out);
+		display: block;
+		font-size: 0.7em;
+		border: 1px solid $colorGrey;
+		width: intrinsic;
+		padding: 6px 8px;
+		color: $colorType;
+		@include border-radius(2px);
+		margin-bottom: 5px;
+	}
+
+	p {
+		color: $colorType;
+		margin-bottom: 5px;
+	}
+
+	&:hover h5 {
+		background: $colorType;
+		border: 1px solid $colorType;
+		color: #fff;
 	}
 }

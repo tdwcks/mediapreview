@@ -17,7 +17,7 @@
 					</div> <!-- col-6 -->
 				</div> <!-- row -->
 			</div> <!-- grid-container -->
-		</section> <!-- home -->
+		</section> <!-- hero -->
 		<section class="discovery">
 			<div class="grid-container">
 				<div class="row">
@@ -63,20 +63,21 @@
 		<section class="video">
 			<div class="grid-inner">
 				<div class="row">
-					<h2>Latest Video</h2>
-				</div>
-				<div class="col-6">
-					<div class="image">
-						
-					</div> <!-- image -->
-				</div> <!-- col-5 -->
-				<div class="col-6">
-					<h4>Train of Thought</h4>
-					<p>The Pasticceria Soriani is an excellent pastry shops based in Rimini. For this client, we have designed a complete rebranding work.</p>
-					<p>The Pasticceria Soriani is an excellent pastry shops based in Rimini. For this client, we have designed a complete rebranding work.</p>
-					<a class="link-btn-one">View More Videos</a>
-				</div> <!-- col-4 shift-1 -->
-			</div> <!-- grid-container -->
+					<div class="col-6">
+						<div class="image">
+							
+						</div> <!-- image -->
+					</div> <!-- col-6 -->
+					<div class="col-1">
+						<div class="grid-spacer"></div>
+					</div>
+					<div class="col-4">
+						<h4>Train of Thought</h4>
+						<h5>14 Minutes</h5>
+						<p>The Pasticceria Soriani is an excellent pastry shops based in Rimini. For this client, we have designed a complete rebranding work.</p>
+						<p>The Pasticceria Soriani is an excellent pastry shops based in Rimini. For this client, we have designed a complete rebranding work.</p>
+					</div> <!-- col-4 shift-1 -->
+			</div> <!-- grid-inner -->
 		</section> <!-- video -->
 	</article> <!-- home -->
 	<?php include 'includes/footer.php'; ?>
