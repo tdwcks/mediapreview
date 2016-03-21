@@ -837,7 +837,8 @@ header {
   overflow: auto;
   position: absolute;
   top: 0;
-  left: 0; }
+  left: 0;
+  z-index: 10; }
   header a.menu-trigger {
     float: right;
     color: #fff;
@@ -942,8 +943,12 @@ a {
   width: 100%;
   height: auto;
   padding: 200px 0 150px 0;
-  background: #3B3B3B; }
+  background: #3B3B3B;
+  z-index: 5;
+  overflow: hidden;
+  position: relative; }
   .hero .col-6 {
+    z-index: 5;
     display: block;
     margin: 0 auto;
     float: none; }
@@ -954,6 +959,14 @@ a {
     display: block;
     margin: 40px auto 0 auto;
     float: none; }
+  .hero img {
+    opacity: 0.75;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    overflow: hidden; }
   @media (max-width: 1130px) {
     .hero .col-6 {
       width: -moz-calc(66.64% - 10px);
@@ -1130,6 +1143,9 @@ a {
     background: #3B3B3B;
     border: 1px solid #3B3B3B;
     color: #fff; }
+
+.home .video h4 {
+  font-size: 1.424em; }
 
 .tutorial .video, .movie .video, .distress .video {
   padding-top: 150px; }

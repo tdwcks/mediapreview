@@ -8,8 +8,12 @@
 	height: auto;
 	padding: 200px 0 150px 0;
 	background: $colorType;
+	z-index: 5;
+	overflow: hidden;
+	position: relative;
 
 	.col-6 {
+		z-index: 5;
 		display: block;
 		margin: 0 auto;
 		float: none;
@@ -24,6 +28,16 @@
 		display: block;
 		margin: 40px auto 0 auto;
 		float: none;
+	}
+
+	img {
+		opacity: 0.75;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 2;
+		width: 100%;
+		overflow: hidden;
 	}
 
 	@include mq("medium", "max-width") {
@@ -204,7 +218,7 @@
 	height: auto;
 	overflow: auto;
 	padding: 50px 0;
-	
+
 	.col-3 {
 		float: right;
 	}

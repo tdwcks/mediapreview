@@ -3,7 +3,7 @@
 <head>
 <link href="style.css" rel="stylesheet" type="text/css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MediaPreview &#8594; Train Of Thought</title>
+<title>MediaPreview &#8594; 8mm Distress Kit</title>
 </head>
 <body>
 	<?php include 'includes/header.php'; ?>

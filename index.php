@@ -9,6 +9,7 @@
 	<?php include 'includes/header.php'; ?>
 	<article class="home">
 		<section class="hero">
+			<img src="images/bg-1.jpg">
 			<div class="grid-container">
 				<div class="row">
 					<div class="col-6">
