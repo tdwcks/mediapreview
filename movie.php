@@ -3,7 +3,7 @@
 <head>
 <link href="style.css" rel="stylesheet" type="text/css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MediaPreview &#8594; Using the 8mm Distress Kit</title>
+<title>MediaPreview &#8594; Train Of Thought</title>
 </head>
 <body>
 	<?php include 'includes/header.php'; ?>
@@ -31,20 +31,20 @@
 				<div class="row">
 					<div class="col-4">
 						<a class="discovery-item" href="">
-							<h2>Jump Frame Edit</h2>
-							<p>A very stylish transistion, using Vector Shapes and Nesting</p>
+							<h2>Trinity Leeds</h2>
+							<p>Tracking the Trinity Leeds public art programme.</p>
 						</a> <!-- discovery-item -->
 					</div> <!-- col-4 -->
 					<div class="col-4">
 						<a class="discovery-item" href="">
-							<h2>Reverb &amp; Echo</h2>
-							<p>Neat trick for applying FCP Reverb &amp; Echo</p>
+							<h2>Trinity Leeds</h2>
+							<p>Tracking the Trinity Leeds public art programme.</p>
 						</a> <!-- discovery-item -->
 					</div> <!-- col-4 -->
 					<div class="col-4">
 						<a class="discovery-item" href="">
-							<h2>FCP Keyboard Shortcuts</h2>
-							<p>Remap FCP default shotcuts, to make life easier</p>
+							<h2>Trinity Leeds</h2>
+							<p>Tracking the Trinity Leeds public art programme.</p>
 						</a> <!-- discovery-item -->
 					</div> <!-- col-4 -->
 				</div> <!-- row -->

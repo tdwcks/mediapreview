@@ -204,8 +204,17 @@
 	height: auto;
 	overflow: auto;
 	padding: 50px 0;
+	
 	.col-3 {
 		float: right;
+	}
+}
+
+.movie-picker {
+	h1 {
+		padding: 25px 0;
+		text-align: center;
+		color: $colorType;
 	}
 }
 

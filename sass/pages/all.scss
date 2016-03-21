@@ -9,8 +9,67 @@
 // 	Tutorial
 // =================================================================
 
-.tutorial, .movie {
+.tutorial, .movie, .distress {
 	.video {
 		padding-top: 150px;
+	}
+}
+
+// 	Distress
+// =================================================================s
+
+.distress {
+	h5 {
+		background: #fff;
+		border: 1px solid #fff;
+		color: $colorType;
+	}
+
+	.price {
+		float: left;
+		margin-left: 20px;
+		opacity: 1;
+		padding-top: 13px;
+	}
+
+	.link-btn-one {
+		float: left;
+		background: $colorOne;
+		color: #fff;
+	}
+
+	.movie-picker {
+		h3 {
+			color: $colorType;
+		}
+
+		h5 {
+			float: left;
+			margin-top: 20px;
+			border: 1px solid $colorGrey;
+		}
+
+		&:hover h5 {
+			background: #fff;
+			border: 1px solid $colorGrey;
+			color: $colorType;
+		}
+
+		h5.link-btn-fake {
+			float: right;
+			@include border-radius(2px);
+			background: #fff;
+			color: $colorType;
+			display: block;
+			width: intrinsic;
+			text-align: center;
+			color: $colorType;
+			text-transform: uppercase;
+			font-size: 0.833em;
+			letter-spacing: 1px;
+			background: $colorTwo;
+			border: 0;
+			color: #fff;
+		}
 	}
 }

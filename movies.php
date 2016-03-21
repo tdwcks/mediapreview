@@ -3,7 +3,7 @@
 <head>
 <link href="style.css" rel="stylesheet" type="text/css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MediaPreview &#8594; Tutorials</title>
+<title>MediaPreview &#8594; Movies</title>
 </head>
 <body>
 	<?php include 'includes/header.php'; ?>
