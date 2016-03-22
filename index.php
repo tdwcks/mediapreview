@@ -12,8 +12,8 @@
 			<img src="images/bg-3.jpg">
 			<div class="grid-container">
 				<div class="row">
-					<div class="col-6">
-						<h2>We produce video programmes and products for commercial, public sector and community clients.</h2>
+					<div class="col-8">
+						<h2>VISION &#9679; CREATIVITY &#9679; QUALITY &#9679; VALUE - these are the watchwords at Mediapreview Ltd, where the old meets the new - vintage 8mm Cine film to sparkling 4k Video production.</h2>
 						<a class="link-btn-one">Watch our Movies</a>
 					</div> <!-- col-6 -->
 				</div> <!-- row -->
@@ -21,6 +21,9 @@
 		</section> <!-- hero -->
 		<section class="discovery">
 			<div class="grid-container">
+				<div class="row">
+					<h1>Our Services</h1>
+				</div>
 				<div class="row">
 					<div class="col-4">
 						<a class="discovery-item" href="">
@@ -61,25 +64,6 @@
 				</div> <!-- row -->
 			</div> <!-- grid-container -->
 		</section> <!-- discovery -->
-		<section class="video">
-			<div class="grid-inner">
-				<div class="row">
-					<div class="col-6">
-						<div class="image">
-							
-						</div> <!-- image -->
-					</div> <!-- col-6 -->
-					<div class="col-1">
-						<div class="grid-spacer"></div>
-					</div>
-					<div class="col-4">
-						<h4>Train of Thought</h4>
-						<h5>14 Minutes</h5>
-						<p>The Pasticceria Soriani is an excellent pastry shops based in Rimini. For this client, we have designed a complete rebranding work.</p>
-						<p>The Pasticceria Soriani is an excellent pastry shops based in Rimini. For this client, we have designed a complete rebranding work.</p>
-					</div> <!-- col-4 shift-1 -->
-			</div> <!-- grid-inner -->
-		</section> <!-- video -->
 	</article> <!-- home -->
 	<?php include 'includes/footer.php'; ?>
 </body>

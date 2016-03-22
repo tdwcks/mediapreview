@@ -19,6 +19,13 @@
 		float: none;
 	}
 
+	.col-8 {
+		z-index: 5;
+		display: block;
+		margin: 0 auto;
+		float: none;
+	}
+
 	h2 {
 		color: #fff;
 		text-align: center;
@@ -62,6 +69,11 @@
 
 	.row {
 		margin-bottom: 0;
+	}
+
+	h2 {
+		color: $colorType;
+		text-align: center;
 	}
 
 	h1 {
@@ -218,6 +230,15 @@
 
 	.col-6 {
 		float: right;
+	}
+
+	h4 {
+		padding: 0.8em 0 0 0 ;
+		color: #000;
+	}
+
+	p {
+		color: #747474;
 	}
 }
 

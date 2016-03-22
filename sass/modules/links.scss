@@ -52,6 +52,7 @@ a {
 	text-transform: uppercase;
 	font-size: 0.88em;
 	letter-spacing: 1px;
+	@include transition(all, 0.2s, ease-in-out);
 
 	h3 {
 		margin-top: 15px;
@@ -78,6 +79,10 @@ a {
 		h4 {
 			color: #fc7653;
 		}
+
+		&:hover {
+			background: darken(#fc7653, 7%);
+		}
 	}
 
 	&.blue {
@@ -86,6 +91,10 @@ a {
 		h4 {
 			color: #1261fb;
 		}
+
+		&:hover {
+			background: darken(#1261fb, 7%);
+		}
 	}
 
 	&.grey {
@@ -93,6 +102,10 @@ a {
 
 		h4 {
 			color: #656565;
+		}
+
+		&:hover {
+			background: lighten(#656565, 7%);
 		}
 	}
 }
