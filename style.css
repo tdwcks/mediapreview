@@ -922,6 +922,22 @@ a {
   cursor: pointer;
   text-decoration: none; }
 
+.link-one {
+  color: #fff;
+  position: relative;
+  margin-right: 40px; }
+  .link-one:after {
+    content: "";
+    position: absolute;
+    right: -20px;
+    top: 8px;
+    display: block;
+    width: 14px;
+    height: 14px;
+    background-image: url("images/arrow-right.svg");
+    background-size: 100% 100%;
+    background-position: 0 0; }
+
 .link-btn-one {
   padding: 12px 15px 10px 15px;
   -webkit-border-radius: 2px;
@@ -938,6 +954,43 @@ a {
   text-transform: uppercase;
   font-size: 0.833em;
   letter-spacing: 1px; }
+
+.link-btn-two {
+  padding: 15px 15px;
+  background: #6ac0a1;
+  color: #3B3B3B;
+  display: block;
+  width: intrinsic;
+  text-align: center;
+  color: #3B3B3B;
+  text-transform: uppercase;
+  font-size: 0.88em;
+  letter-spacing: 1px; }
+  .link-btn-two h3 {
+    margin-top: 15px;
+    color: #fff;
+    padding-bottom: 15px; }
+  .link-btn-two p {
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 1.1em; }
+  .link-btn-two h4 {
+    padding-bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    background: #fff; }
+  .link-btn-two.green {
+    background: #fc7653; }
+    .link-btn-two.green h4 {
+      color: #fc7653; }
+  .link-btn-two.blue {
+    background: #1261fb; }
+    .link-btn-two.blue h4 {
+      color: #1261fb; }
+  .link-btn-two.grey {
+    background: #656565; }
+    .link-btn-two.grey h4 {
+      color: #656565; }
 
 .hero {
   width: 100%;
@@ -964,7 +1017,7 @@ a {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 2;
     width: 100%;
     overflow: hidden; }
   @media (max-width: 1130px) {
@@ -1062,10 +1115,12 @@ a {
   .video h2 {
     color: #fff;
     padding-bottom: 25px; }
-  .video h4, .video p, .video h5 {
+  .video p, .video h5 {
     padding: 0;
     color: #fff;
     padding-bottom: 23px; }
+  .video h4 {
+    color: #fff; }
   .video h5 {
     display: block;
     font-size: 0.7em;
@@ -1082,6 +1137,8 @@ a {
     opacity: 0.8; }
   .video .link-btn-one {
     margin-top: 8px; }
+  .video .link-btn-two {
+    margin-top: 20px; }
   @media (max-width: 960px) {
     .video {
       padding: 20px 0 25px 0; }
@@ -1151,9 +1208,8 @@ a {
   padding-top: 150px; }
 
 .distress h5 {
-  background: #fff;
   border: 1px solid #fff;
-  color: #3B3B3B; }
+  color: #fff; }
 .distress .price {
   float: left;
   margin-left: 20px;
@@ -1161,8 +1217,10 @@ a {
   padding-top: 13px; }
 .distress .link-btn-one {
   float: left;
-  background: #FF5B34;
-  color: #fff; }
+  background: #fff;
+  color: #3B3B3B; }
+.distress .video {
+  padding-bottom: 25px; }
 .distress .movie-picker h3 {
   color: #3B3B3B; }
 .distress .movie-picker h5 {

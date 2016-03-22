@@ -10,20 +10,45 @@
 	<article class="distress">
 		<section class="video">
 		<div class="grid-inner">
-			<div class="col-8">
-				<div class="image">
-					
-				</div> <!-- image -->
-			</div> <!-- col-5 -->
-			<div class="col-4">
-				<h2>8MM Distress Kit</h2>
-				<h5>28 clips now in 4k</h5>
-				<p>Light leaks, light sweeps, flashes and colors. Damage, dust, hairs, dots and dirt.</p>
-				<p>It's all on the 8mm Distress Kit HD. 28 clips taken from vintage 8mm cine film.</p>
-				<p>Overlay on your footage and transitions to add a sexy flourish, a touch of grunge    or get that totally messed-up look!</p>
-				<a class="link-btn-one">Buy Full Set</a>
-				<p class="price">&#36; 50.00</p>
-			</div> <!-- col-4 shift-1 -->
+			<div class="row">
+				<div class="col-8">
+					<div class="image">
+						
+					</div> <!-- image -->
+				</div> <!-- col-5 -->
+				<div class="col-4">
+					<h2>8MM Distress Kit</h2>
+					<h5>28 clips now in 4k</h5>
+					<p>Light leaks, light sweeps, flashes and colors. Damage, dust, hairs, dots and dirt.</p>
+					<p>It's all on the 8mm Distress Kit HD. 28 clips taken from vintage 8mm cine film.</p>
+					<p>Overlay on your footage and transitions to add a sexy flourish, a touch of grunge    or get that totally messed-up look!</p>
+					<a class="link-one">Preview Clips</a>
+					<a class="link-one">Free Samples</a>
+				</div> <!-- col-4 shift-1 -->
+			</div> <!-- row -->
+			<div class="row">
+				<div class="col-4">
+					<a class="link-btn-two green">
+						<h3>8mm Distress Kit 4K CLASSIC</h3>
+						<p>The Pasticceria Soriani is an excellent pastry shops based in Rimini.</p>
+						<h4>Buy Now &#163;55</h4>
+					</a>
+				</div>
+				<div class="col-4">
+					<a class="link-btn-two blue">
+						<h3>8mm Distress Kit 4K PREMIUM</h3>
+						<p>The Pasticceria Soriani is an excellent pastry shops based in Rimini.</p>
+						<h4>Buy Now &#163;89</h4>
+					</a>
+				</div>
+				<div class="col-4 grey">
+					<a class="link-btn-two grey">
+						<h3>Upgrade</h3>
+						<p>The Pasticceria Soriani is an excellent pastry shops based in Rimini.</p>
+						<h4>Buy Now &#163;34</h4>
+					</a>
+				</div>
+			</div>
 		</div> <!-- grid-inner -->
 		</section> <!-- video -->
 		<section class="movie-picker">

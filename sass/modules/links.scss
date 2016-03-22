@@ -8,6 +8,25 @@ a {
   text-decoration: none;
 }
 
+.link-one {
+	color: #fff;
+	position: relative;
+	margin-right: 40px;
+
+	&:after {
+		content: "";
+		position: absolute;
+		right: -20px;
+		top: 8px;
+		display: block;
+		width: 14px;
+		height: 14px;
+		background-image: url('images/arrow-right.svg');
+		background-size: 100% 100%;
+		background-position: 0 0;
+	}
+}
+
 .link-btn-one {
 	padding: 12px 15px 10px 15px;
 	@include border-radius(2px);
@@ -20,4 +39,60 @@ a {
 	text-transform: uppercase;
 	font-size: 0.833em;
 	letter-spacing: 1px;
+}
+
+.link-btn-two {
+	padding: 15px 15px;
+	background: #6ac0a1;
+	color: $colorType;
+	display: block;
+	width: intrinsic;
+	text-align: center;
+	color: $colorType;
+	text-transform: uppercase;
+	font-size: 0.88em;
+	letter-spacing: 1px;
+
+	h3 {
+		margin-top: 15px;
+		color: #fff;
+		padding-bottom: 15px;
+	}
+
+	p {
+		text-transform: none;
+		letter-spacing: 0;
+		font-size: 1.1em;
+	}
+
+	h4 {
+		padding-bottom: 0;
+		width: 100%;
+		padding: 10px 0;
+		background: #fff;
+	}
+
+	&.green {
+		background: #fc7653;
+
+		h4 {
+			color: #fc7653;
+		}
+	}
+
+	&.blue {
+		background: #1261fb;
+
+		h4 {
+			color: #1261fb;
+		}
+	}
+
+	&.grey {
+		background: #656565;
+
+		h4 {
+			color: #656565;
+		}
+	}
 }

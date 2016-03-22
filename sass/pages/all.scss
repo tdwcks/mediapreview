@@ -28,9 +28,8 @@
 
 .distress {
 	h5 {
-		background: #fff;
 		border: 1px solid #fff;
-		color: $colorType;
+		color: #fff;
 	}
 
 	.price {
@@ -42,8 +41,12 @@
 
 	.link-btn-one {
 		float: left;
-		background: $colorOne;
-		color: #fff;
+		background: #fff;
+		color: $colorType;
+	}
+
+	.video {
+		padding-bottom: 25px;
 	}
 
 	.movie-picker {
