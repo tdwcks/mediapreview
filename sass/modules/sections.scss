@@ -60,6 +60,8 @@
 	}
 
 	@include mq("small", "max-width") {
+		padding-bottom: 100px;
+
 		.col-8, .col-6 {
 			width: 100%;
 		}
