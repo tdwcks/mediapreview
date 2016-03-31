@@ -48,14 +48,20 @@
 	}
 
 	@include mq("medium", "max-width") {
-		.col-6 {
+
+		.col-8, .col-6 {
 			@include calc(width, "66.64% - 10px");
+		}
+
+		img {
+			width: auto;
+			height: 100%;
 		}
 	}
 
 	@include mq("small", "max-width") {
-		.col-6 {
-			@include calc(width, "100%");
+		.col-8, .col-6 {
+			width: 100%;
 		}
 	}
 
@@ -240,6 +246,34 @@
 	p {
 		color: #747474;
 	}
+
+	@include mq("small", "max-width") {
+		.grid-container {
+			width: 80%;
+		}
+
+		.col-4, .col-6 {
+			width: 100%;
+		}
+
+		.col-4 p {
+			font-size: 1.25em;
+			line-height: 1.3em;
+			margin-bottom: 20px;
+		}
+	}
+
+	@include mq("extra-small", "max-width") {
+		padding: 0;
+
+		.grid-container {
+			@include calc(width, "100% - 60px");
+		}
+
+		.col-4 p {
+			margin-bottom: 0;
+		}
+	}
 }
 
 .longform-breakdown {
@@ -250,6 +284,70 @@
 
 	.col-3 {
 		float: right;
+
+		p {
+			padding-right: 50px;
+		}
+	}
+
+	@include mq("small", "max-width") {
+		.grid-container {
+			width: 80%;
+		}
+
+		.col-4, .col-6 {
+			width: 100%;
+		}
+
+		.col-4 p {
+			font-size: 1.25em;
+			line-height: 1.3em;
+			margin-bottom: 30px;
+		}
+
+		.col-3 {
+			margin-top: 0px;
+			@include calc(width, "50% - 15px");
+
+			&:first-child {
+				margin-right: 24px;
+			}
+		}
+	}
+
+	@include mq("extra-small", "max-width") {
+		display: none;
+		padding: 0;
+
+		.grid-container {
+			@include calc(width, "100% - 60px");
+		}
+
+		.col-4 p {
+			margin-bottom: 0;
+		}
+
+		.col-3 {
+			width: 100%;
+		}
+	}
+}
+
+.image-gallery {
+	@include mq("small", "max-width") {
+		margin-top: 24px;
+
+		.col-6 {
+			width: 100%;
+		}
+		.image {
+			margin: 12px 0;
+		}
+		.row {
+			margin: 0;
+		}
+
+
 	}
 }
 

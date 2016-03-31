@@ -228,7 +228,7 @@ body {
       font-size: 18px; } }
   @media (max-width: 760px) {
     body {
-      font-size: 18px; } }
+      font-size: 19px; } }
   @media (max-width: 595px) {
     body {
       font-size: 14px; } }
@@ -299,7 +299,8 @@ small, .font_small {
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
-  overflow: hidden; }
+  overflow: hidden;
+  position: relative; }
   .image:before {
     display: block;
     content: "";
@@ -311,6 +312,12 @@ small, .font_small {
     left: 0;
     right: 0;
     bottom: 0; }
+  .image iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
 
 /**
  * Swiper 3.2.7
@@ -843,12 +850,15 @@ header {
     float: right;
     color: #fff;
     display: none; }
-  header h1 {
-    font-size: 1.1em;
-    color: #fff;
-    float: left; }
+  header .logo {
+    margin: 0;
+    padding: 0; }
+    header .logo img {
+      padding: 0;
+      width: 130px; }
   header nav {
-    float: right; }
+    float: right;
+    margin-top: 0; }
     header nav ul {
       float: right; }
     header nav ul, header nav li {
@@ -871,6 +881,9 @@ header {
   @media (max-width: 960px) {
     header {
       padding: 30px 0; }
+      header a.menu-trigger {
+        margin-top: 6px;
+        font-size: 1.2em; }
       header nav {
         display: none;
         clear: both;
@@ -915,6 +928,8 @@ header {
           letter-spacing: 0;
           box-sizing: border-box;
           color: #FF5B34; }
+        header nav.active {
+          display: block; }
       header a.menu-trigger {
         display: block; } }
 
@@ -1037,15 +1052,16 @@ a {
     width: 100%;
     overflow: hidden; }
   @media (max-width: 1130px) {
-    .hero .col-6 {
+    .hero .col-8, .hero .col-6 {
       width: -moz-calc(66.64% - 10px);
       width: -webkit-calc(66.64% - 10px);
-      width: calc(66.64% - 10px); } }
+      width: calc(66.64% - 10px); }
+    .hero img {
+      width: auto;
+      height: 100%; } }
   @media (max-width: 960px) {
-    .hero .col-6 {
-      width: -moz-calc(100%);
-      width: -webkit-calc(100%);
-      width: calc(100%); } }
+    .hero .col-8, .hero .col-6 {
+      width: 100%; } }
   @media (max-width: 595px) {
     .hero {
       padding: 130px 0 150px 0; } }
@@ -1179,6 +1195,24 @@ a {
     color: #000; }
   .longform p {
     color: #747474; }
+  @media (max-width: 960px) {
+    .longform .grid-container {
+      width: 80%; }
+    .longform .col-4, .longform .col-6 {
+      width: 100%; }
+    .longform .col-4 p {
+      font-size: 1.25em;
+      line-height: 1.3em;
+      margin-bottom: 20px; } }
+  @media (max-width: 760px) {
+    .longform {
+      padding: 0; }
+      .longform .grid-container {
+        width: -moz-calc(100% - 60px);
+        width: -webkit-calc(100% - 60px);
+        width: calc(100% - 60px); }
+      .longform .col-4 p {
+        margin-bottom: 0; } }
 
 .longform-breakdown {
   width: 100%;
@@ -1187,6 +1221,46 @@ a {
   padding: 50px 0; }
   .longform-breakdown .col-3 {
     float: right; }
+    .longform-breakdown .col-3 p {
+      padding-right: 50px; }
+  @media (max-width: 960px) {
+    .longform-breakdown .grid-container {
+      width: 80%; }
+    .longform-breakdown .col-4, .longform-breakdown .col-6 {
+      width: 100%; }
+    .longform-breakdown .col-4 p {
+      font-size: 1.25em;
+      line-height: 1.3em;
+      margin-bottom: 30px; }
+    .longform-breakdown .col-3 {
+      margin-top: 0px;
+      width: -moz-calc(50% - 15px);
+      width: -webkit-calc(50% - 15px);
+      width: calc(50% - 15px); }
+      .longform-breakdown .col-3:first-child {
+        margin-right: 24px; } }
+  @media (max-width: 760px) {
+    .longform-breakdown {
+      display: none;
+      padding: 0; }
+      .longform-breakdown .grid-container {
+        width: -moz-calc(100% - 60px);
+        width: -webkit-calc(100% - 60px);
+        width: calc(100% - 60px); }
+      .longform-breakdown .col-4 p {
+        margin-bottom: 0; }
+      .longform-breakdown .col-3 {
+        width: 100%; } }
+
+@media (max-width: 960px) {
+  .image-gallery {
+    margin-top: 24px; }
+    .image-gallery .col-6 {
+      width: 100%; }
+    .image-gallery .image {
+      margin: 12px 0; }
+    .image-gallery .row {
+      margin: 0; } }
 
 .movie-picker h1 {
   padding: 25px 0;

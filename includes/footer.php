@@ -1,3 +1,5 @@
+<script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
+<script src="javascript/main.js"></script>
 <footer>
 	<div class="grid-container">
 		<div class="col-4">

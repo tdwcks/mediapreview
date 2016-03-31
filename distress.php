@@ -23,7 +23,7 @@ MM_reloadPage(true);
 				<div class="row">
 					<div class="col-8">
 						<div class="image">
-							
+							<iframe src="https://player.vimeo.com/video/160765149?title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 						</div> <!-- image -->
 					</div> <!-- col-5 -->
 					<div class="col-4">
