@@ -1198,6 +1198,8 @@ a {
   @media (max-width: 960px) {
     .longform .grid-container {
       width: 80%; }
+    .longform p {
+      font-size: 1.1em; }
     .longform .col-4, .longform .col-6 {
       width: 100%; }
     .longform .col-4 p {
