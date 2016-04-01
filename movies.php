@@ -90,7 +90,7 @@
 					</div> <!-- col-4 -->
 				</div> <!-- row -->
 			</div> <!-- grid-container -->
-		</div> <!-- grid-container -->
+		</section>
 	</article>  <!-- tutorial -->
 	<?php include 'includes/footer.php'; ?>
 </body>

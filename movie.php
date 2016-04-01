@@ -9,19 +9,19 @@
 	<?php include 'includes/header.php'; ?>
 	<article class="movie">
 		<section class="video">
-		<div class="grid-inner">
-			<div class="col-8">
-				<div class="image">
-					
-				</div> <!-- image -->
-			</div> <!-- col-5 -->
-			<div class="col-4">
-				<h2>Train Of Thought</h2>
-				<h5>14 Minutes</h5>
-				<p>The Pasticceria Soriani is an excellent pastry shops based in Rimini. For this client, we have designed a complete rebranding work.</p>
-				<p>The Pasticceria Soriani is an excellent pastry shops based in Rimini. For this client, we have designed a complete rebranding work.</p>
-			</div> <!-- col-4 shift-1 -->
-		</div> <!-- grid-inner -->
+			<div class="grid-inner">
+				<div class="col-8">
+					<div class="image">
+						<iframe src="https://player.vimeo.com/video/144060482?title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					</div> <!-- image -->
+				</div> <!-- col-5 -->
+				<div class="col-4">
+					<h2>Train Of Thought</h2>
+					<h5>14 Minutes</h5>
+					<p>The Pasticceria Soriani is an excellent pastry shops based in Rimini. For this client, we have designed a complete rebranding work.</p>
+					<p>The Pasticceria Soriani is an excellent pastry shops based in Rimini. For this client, we have designed a complete rebranding work.</p>
+				</div> <!-- col-4 shift-1 -->
+			</div> <!-- grid-inner -->
 		</section> <!-- video -->
 		<section class="discovery">
 			<div class="grid-container">

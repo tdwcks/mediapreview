@@ -103,8 +103,7 @@ $grid-spacing:2%;
   @include calc(width, "50% - 15px");
 
   @include mq("small", "max-width") {
-    margin-right: 20px;
-    @include calc(width, "66.64% - 10px");
+    @include calc(width, "50% - 15px");
   }
 }
 
@@ -138,6 +137,17 @@ $grid-spacing:2%;
 
   &:nth-child(4) {
     margin-right: 0;
+  }
+
+  @include mq("small", "max-width") {
+    @include calc(width, "50% - 18px");
+    
+    &:nth-child(2) {
+      margin-right: 0px;
+    }
+  }
+  @include mq("extra-small", "max-width") {
+    width: 100%;
   }
 }
 

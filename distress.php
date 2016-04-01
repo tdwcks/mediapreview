@@ -61,35 +61,40 @@ MM_reloadPage(true);
 				</div>
 			</div> <!-- grid-inner -->
 		</section> <!-- video -->
-		<section class="hero">
-			<img src="images/bg-4.jpg">
-			<div class="grid-inner">
-				<div class="row">
-					<h1>What Our Customers Say</h1>
-				</div>
-				<div class="row">
-					<div class="col-4">
-						<h4>"By the way the kit is amazing... Totally worthy of the price! Now I am ready to make some beautiful work. Greetings from Brazil"</h4>
-					</div>
-					<div class="col-4">
-						<h4>"Honestly I've paid much more for similar effects, but then I found yours and have been using them exclusively. They are real 8mm so makes the transitions and jump cuts look authentic."</h4>
-					</div>
-					<div class="col-4">
-						<h4>"Just wanted to say thank you for your wonderful 8mm Distress Kit. It's exactly what I was looking for!"</h4>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-4">
-						<h4>"Thanks for that great kit, :) i love it, that was the one i was searching for a month, greetings from germany"</h4>
-					</div>
-					<div class="col-4">
-						<h4>"I just purchased and downloaded your Super 8 Distress Pack. I love it!  I've been searching for years for a way to bring some of the magic of Super 8 to my movies. I've finally found it!"</h4>
-					</div>
-					<div class="col-4">
-						<h4>"Your 8mm distress kit was a lifesaver on one of my videos I'll be recommending it to every editor I know"</h4>
-					</div>
-				</div>
-			</div>
+		<section class="testimonials">
+			<div class="swiper-container">
+	        <div class="swiper-wrapper">
+	            <div class="swiper-slide">
+	            	<div class="grid-container">
+	            		<div class="col-8">
+	            			<h2>Mediapreview keep leaving their chewing gum on the side of the table and it's really annoying.</h2>
+	            			<h5>Tom Wicks, Miln</h5>
+	            		</div>
+	            	</div>
+	            </div>
+	            <div class="swiper-slide">
+	            	<div class="grid-container">
+	            		<div class="col-8">
+	            			<h2>Mediapreview keep leaving their chewing gum on the side of the table and it's really annoying.</h2>
+	            			<h5>Tom Wicks, Miln</h5>
+	            		</div>
+	            	</div>
+	            </div>
+	            <div class="swiper-slide">
+	            	<div class="grid-container">
+	            		<div class="col-8">
+	            			<h2>Mediapreview keep leaving their chewing gum on the side of the table and it's really annoying.</h2>
+	            			<h5>Tom Wicks, Miln</h5>
+	            		</div>
+	            	</div>
+	            </div>
+	        </div>
+	        <!-- Add Pagination -->
+	        <div class="swiper-pagination"></div>
+	        <!-- Add Arrows -->
+	        <div class="swiper-button-next"></div>
+	        <div class="swiper-button-prev"></div>
+	    </div>
 		</section>
 		<section class="longform">
 			<div class="grid-container">

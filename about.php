@@ -31,10 +31,41 @@
 				</div> <!-- row -->
 			</div> <!-- grid-container -->
 		</section> <!-- longform -->
-		<section class="hero">
-			<div class="grid-container">
-			</div> <!-- grid-container -->
-		</section> <!-- hero -->
+		<section class="testimonials">
+			<div class="swiper-container">
+	        <div class="swiper-wrapper">
+	            <div class="swiper-slide">
+	            	<div class="grid-container">
+	            		<div class="col-8">
+	            			<h2>Mediapreview keep leaving their chewing gum on the side of the table and it's really annoying.</h2>
+	            			<h5>Tom Wicks, Miln</h5>
+	            		</div>
+	            	</div>
+	            </div>
+	            <div class="swiper-slide">
+	            	<div class="grid-container">
+	            		<div class="col-8">
+	            			<h2>Mediapreview keep leaving their chewing gum on the side of the table and it's really annoying.</h2>
+	            			<h5>Tom Wicks, Miln</h5>
+	            		</div>
+	            	</div>
+	            </div>
+	            <div class="swiper-slide">
+	            	<div class="grid-container">
+	            		<div class="col-8">
+	            			<h2>Mediapreview keep leaving their chewing gum on the side of the table and it's really annoying.</h2>
+	            			<h5>Tom Wicks, Miln</h5>
+	            		</div>
+	            	</div>
+	            </div>
+	        </div>
+	        <!-- Add Pagination -->
+	        <div class="swiper-pagination"></div>
+	        <!-- Add Arrows -->
+	        <div class="swiper-button-next"></div>
+	        <div class="swiper-button-prev"></div>
+	    </div>
+		</section>
 		<section class="longform-breakdown">
 			<div class="grid-container">
 				<div class="row">
