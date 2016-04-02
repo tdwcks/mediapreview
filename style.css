@@ -64,6 +64,11 @@ body {
   width: -webkit-calc(100% - 60px);
   width: calc(100% - 60px);
   max-width: 1400px; }
+  @media (max-width: 350px) {
+    .grid-container {
+      width: -moz-calc(100% - 40px);
+      width: -webkit-calc(100% - 40px);
+      width: calc(100% - 40px); } }
 
 .grid-inner {
   position: relative;
@@ -78,6 +83,11 @@ body {
       width: -moz-calc(100% - 60px);
       width: -webkit-calc(100% - 60px);
       width: calc(100% - 60px); } }
+  @media (max-width: 350px) {
+    .grid-inner {
+      width: -moz-calc(100% - 40px);
+      width: -webkit-calc(100% - 40px);
+      width: calc(100% - 40px); } }
 
 .row:after {
   display: block;
@@ -238,13 +248,13 @@ body {
   @media (max-width: 760px) {
     body {
       font-size: 19px; } }
-  @media (max-width: 595px) {
+  @media (max-width: 350px) {
     body {
       font-size: 16px; } }
 
 h1, h2, h3, h4 {
   font-weight: inherit;
-  line-height: 1.2; }
+  line-height: 1.4; }
 
 h1 {
   font-size: 1.602em; }
@@ -538,9 +548,8 @@ footer {
 
 header {
   width: 100%;
-  height: 400px;
+  height: auto;
   padding: 50px 0;
-  overflow: auto;
   position: absolute;
   top: 0;
   left: 0;
@@ -672,6 +681,8 @@ a {
 .link-btn-two {
   padding: 15px 15px;
   background: #6ac0a1;
+  width: 100%;
+  box-sizing: border-box;
   color: #3B3B3B;
   display: block;
   width: intrinsic;
@@ -726,12 +737,13 @@ a {
   overflow: hidden;
   position: relative; }
   .hero .col-6 {
-    z-index: 5;
+    z-index: 10;
     display: block;
     margin: 0 auto;
-    float: none; }
+    float: none;
+    position: relative; }
   .hero .col-8 {
-    z-index: 5;
+    z-index: 10;
     display: block;
     margin: 0 auto;
     float: none; }
@@ -879,12 +891,40 @@ a {
     margin-top: 20px; }
   @media (max-width: 960px) {
     .video {
-      padding: 100px 0 0 0; }
+      padding: 100px 0 0 0;
+      box-sizing: border-box; }
       .video h2 {
+        margin-top: 30px;
         padding-bottom: 20px; }
       .video .col-8, .video .col-4 {
         width: 100%;
-        margin-bottom: 30px; } }
+        margin-bottom: 10px; }
+      .video .row .col-4 .link-btn-two {
+        width: 100%; } }
+
+.page-nav .row {
+  padding: 15px 0 15px 0; }
+.page-nav a {
+  color: #A6A6A6;
+  font-size: 0.9em;
+  display: block;
+  float: left;
+  border-bottom: 2px solid #fff; }
+  .page-nav a:hover {
+    border-bottom: 2px solid #A6A6A6; }
+.page-nav .base {
+  margin-right: 35px;
+  position: relative; }
+  .page-nav .base:after {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url("images/arrow-right-grey.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -30px;
+    top: -1px; }
 
 .longform {
   width: 100%;
@@ -1056,6 +1096,49 @@ a {
     color: #3B3B3B;
     margin-bottom: 5px; }
 
+.lightbox {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: none; }
+  .lightbox .lightbox-bg {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9; }
+  .lightbox .col-6 {
+    display: block;
+    float: none;
+    margin: 25vh auto;
+    z-index: 11; }
+    .lightbox .col-6 .information-holder {
+      height: auto;
+      background: #fff;
+      padding: 15px 20px; }
+      .lightbox .col-6 .information-holder h4 {
+        color: #3B3B3B;
+        margin-bottom: 5px; }
+      .lightbox .col-6 .information-holder h5 {
+        -webkit-transition: all 0.1s ease-in-out;
+        -moz-transition: all 0.1s ease-in-out;
+        -ms-transition: all 0.1s ease-in-out;
+        -o-transition: all 0.1s ease-in-out;
+        transition: all 0.1s ease-in-out;
+        display: block;
+        font-size: 0.7em;
+        width: intrinsic;
+        color: #A6A6A6;
+        margin-bottom: 5px;
+        border: 0; }
+  .lightbox.active {
+    display: block; }
+
 .home .discovery h1 {
   padding: 10px 0; }
 .home .video h4 {
@@ -1076,7 +1159,8 @@ a {
   background: #fff;
   color: #3B3B3B; }
 .distress .video {
-  padding-bottom: 25px; }
+  padding-bottom: 25px;
+  padding-top: 120px; }
 .distress .hero {
   padding: 50px 0 0 0; }
   .distress .hero h1 {
@@ -1130,9 +1214,12 @@ a {
 
 .depot .discovery .discovery-item {
   margin-bottom: 0; }
+  @media (max-width: 960px) {
+    .depot .discovery .discovery-item {
+      margin-bottom: 30px; } }
 
 .depot-collection .movie-picker {
-  padding: 30px 0 0 0; }
+  padding: 0 0 0 0; }
   .depot-collection .movie-picker h5 {
     margin-bottom: 24px; }
 

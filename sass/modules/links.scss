@@ -44,6 +44,8 @@ a {
 .link-btn-two {
 	padding: 15px 15px;
 	background: #6ac0a1;
+	width: 100%;
+	box-sizing: border-box;
 	color: $colorType;
 	display: block;
 	width: intrinsic;

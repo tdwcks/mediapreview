@@ -9,6 +9,10 @@
   margin: 0 auto;
   @include calc(width, "100% - 60px");
   max-width: 1400px;
+
+  @include mq("nano", "max-width") {
+    @include calc(width, "100% - 40px");
+  }
 }
 
 .grid-inner {
@@ -20,6 +24,10 @@
 
   @include mq("small", "max-width") {
     @include calc(width, "100% - 60px");
+  }
+
+  @include mq("nano", "max-width") {
+    @include calc(width, "100% - 40px");
   }
 }
 

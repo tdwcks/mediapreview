@@ -13,14 +13,15 @@
 	position: relative;
 
 	.col-6 {
-		z-index: 5;
+		z-index: 10;
 		display: block;
 		margin: 0 auto;
 		float: none;
+		position: relative;
 	}
 
 	.col-8 {
-		z-index: 5;
+		z-index: 10;
 		display: block;
 		margin: 0 auto;
 		float: none;
@@ -222,14 +223,56 @@
 
 	@include mq("small", "max-width") {
 		padding: 100px 0 0 0;
+		box-sizing: border-box;
 
 		h2 {
+			margin-top: 30px;
 			padding-bottom: 20px;
 		}
 
 		.col-8, .col-4 {
 			width: 100%;
-			margin-bottom: 30px;
+			margin-bottom: 10px;
+		}
+
+		.row .col-4 .link-btn-two {
+			width: 100%;
+		}
+	}
+}
+
+.page-nav {
+	.row {
+		padding: 15px 0 15px 0;
+	}
+
+	a {
+		color: $colorGrey;
+		font-size: 0.9em;
+		display: block;
+		float: left;
+		border-bottom: 2px solid #fff;
+
+		&:hover {
+			border-bottom: 2px solid $colorGrey;
+		}
+	}
+
+	.base {
+		margin-right: 35px;
+		position: relative;
+
+		&:after {
+			content: "";
+			display: block;
+			width: 20px;
+			height: 20px;
+			background: url('images/arrow-right-grey.svg');
+			background-repeat: no-repeat;
+			position: absolute;
+			right: -30px;
+			top: -1px;
+
 		}
 	}
 }
@@ -494,3 +537,57 @@
 		margin-bottom: 5px;
 	}
 }
+
+.lightbox {
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	display: none;
+
+	.lightbox-bg {
+		background: rgba(0, 0, 0, 0.5);
+		width: 100%;
+		height: 100vh;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 9;
+	}
+
+	.col-6 {
+		display: block;
+		float: none;
+		margin: 25vh auto;
+		z-index: 11;
+
+		.information-holder {
+			height: auto;
+			background: #fff;
+			padding: 15px 20px;
+
+			h4 {
+				color: $colorType;
+				margin-bottom: 5px;
+			}
+
+			h5 {
+				@include transition( all, 0.1s, ease-in-out);
+				display: block;
+				font-size: 0.7em;
+				width: intrinsic;
+				color: $colorGrey;
+				margin-bottom: 5px;
+				border: 0;
+			}
+		}
+	}
+
+	&.active {
+		display: block;
+	}
+}
+
+

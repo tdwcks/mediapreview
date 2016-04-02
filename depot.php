@@ -22,7 +22,7 @@
 				<div class="row">
 					<div class="col-4">
 						<a class="discovery-item" href="depot-collection.php">
-							<h2>Super 8 Contemporary London</h2>
+							<h2>Contemporary London</h2>
 							<p>Stunning super 8 shots of the modern city</p>
 						</a> <!-- discovery-item -->
 					</div> <!-- col-4 -->

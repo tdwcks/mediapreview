@@ -9,12 +9,12 @@
 	<?php include 'includes/header.php'; ?>
 	<article class="home">
 		<section class="hero">
-			<img src="images/bg-3.jpg">
+			<img class="lazy" data-original="images/bg-3.jpg">
 			<div class="grid-container">
 				<div class="row">
 					<div class="col-8">
-						<h2>Our first love is video production - we've been making films for commercial, public sector and community clients for over 30 years. We also have a passion for 8mm film - selling and licensing 8mm products worldwide.</h2>
-						<a class="link-btn-one">Watch our Movies</a>
+						<h2>Our first love is video production - we've been making films for commercial, public sector and community clients for over 30 years.</h2>
+						<a href="movies.php" class="link-btn-one">Watch our Movies</a>
 					</div> <!-- col-6 -->
 				</div> <!-- row -->
 			</div> <!-- grid-container -->
