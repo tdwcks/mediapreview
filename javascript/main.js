@@ -25,7 +25,7 @@ $(document).ready(function(){
     });
 });
 
-$( ".movie-picker-item" ).on( "click", function() {
+$( ".js-movie-picker-item" ).on( "click", function() {
 	
 	// Get vimeo url, caption and video length from target
 	var videoUrl = $(this).find('iframe').attr("src");
