@@ -14,8 +14,8 @@
 				<div class="row">
 					<div class="col-8">
 						<h2>Our first love is video production - we've been making films for commercial, public sector and community clients for over 30 years.</h2>
-						<a href="movies.php" class="link-btn-one">Watch our Movies</a>
-					</div> <!-- col-6 -->
+<!-- 						<a href="movies.php" class="link-btn-one">Watch our Movies</a>
+ -->					</div> <!-- col-6 -->
 				</div> <!-- row -->
 			</div> <!-- grid-container -->
 		</section> <!-- hero -->
@@ -26,19 +26,22 @@
 				</div>
 				<div class="row">
 					<div class="col-4">
-						<a class="discovery-item" href="">
+						<a class="discovery-item" href="/production">
+							<img class="lazy" data-original="images/bg-1-small.jpg">
 							<h2>Production</h2>
 							<p>Films for commercial, public sector &amp; Community Clients</p>
 						</a> <!-- discovery-item -->
 					</div> <!-- col-4 -->
 					<div class="col-4">
-						<a class="discovery-item" href="">
+						<a class="discovery-item" href="/8mm">
+							<img class="lazy" data-original="images/bg-5-small.jpg">
 							<h2>8mm Distress Kit</h2>
 							<p>Films for commercial, public sector &amp; Community Clients</p>
 						</a> <!-- discovery-item -->
 					</div> <!-- col-4 -->
 					<div class="col-4">
-						<a class="discovery-item" href="">
+						<a class="discovery-item" href="/depot">
+							<img class="lazy" data-original="images/bg-4-small.jpg">
 							<h2>8mm Stock Depot</h2>
 							<p>Films for commercial, public sector &amp; Community Clients</p>
 						</a><!-- discovery-item -->

@@ -1,0 +1,1 @@
+<meta http-equiv="refresh" content="0; URL='http://localhost:8888/mediapreview/index.php'" />

@@ -13,7 +13,7 @@
 			<div class="grid-container">
 				<div class="row">
 					<div class="col-6">
-						<h2>We produce video programmes and products for commercial, public sector and community clients.</h2>
+						<h2>Contact us for video programmes and products for commercial, public sector.</h2>
 					</div> <!-- col-6 -->
 				</div> <!-- row -->
 			</div> <!-- grid-container -->
@@ -22,13 +22,41 @@
 			<div class="grid-container">
 				<div class="row">
 					<div class="col-4">
-						<p>Mediapreview’s Andy Wicks and his associates have been making videos and screen media products for commercial, public sector and community clients for the past 30 years.</p>
+						<p>Mediapreview's Andy Wicks and his associates have been making videos and screen media products for commercial, public sector and community clients for the past 30 years.</p>
 					</div> <!-- col-4 -->
-					<div class="col-6">
-						<p>We drill down find out what the client really needs and make sure it gets delivered to the highest standard, on time and on budget.</p>
-						<p>On the production side, using state of the art 4k DSLR technology, we work unobtrusively, striking the balance between putting interviewees at ease and shooting useable material that shows everyone in the best light - literally and metaphorically! We have extensive experience of shooting and editing green screen.</p>
-						<p>Post - production wise we specialise in Adobe Premiere and After Effects editing. Working creatively and speedily - finding the narrative, managing large amounts of material to assemble films that sparkle, flow seamlessly with a light touch and bring out the best in the participants.</p>
-						<p>We then know how to get the films seen - on websites, on demand, social and DVD.</p>
+					<div class="col-6">		
+						<form action="email-form.php" method="POST">
+						<p>Name</p> <input type="text" name="name">
+						<p>Email</p> <input type="text" name="email">
+						<p>Phone</p> <input type="text" name="phone">
+
+						<p>Request Phone Call:</p>
+						Yes:<input type="checkbox" value="Yes" name="call"><br />
+						No:<input type="checkbox" value="No" name="call"><br />
+
+						<p>Website</p> <input type="text" name="website">
+
+						<p>Priority</p>
+						<select name="priority" size="1">
+						<option value="Low">Low</option>
+						<option value="Normal">Normal</option>
+						<option value="High">High</option>
+						<option value="Emergency">Emergency</option>
+						</select>
+						<br />
+
+						<p>Type</p>
+						<select name="type" size="1">
+						<option value="update">Website Update</option>
+						<option value="change">Information Change</option>
+						<option value="addition">Information Addition</option>
+						<option value="new">New Products</option>
+						</select>
+						<br />
+
+						<p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
+						<input type="submit" value="Send"><input type="reset" value="Clear">
+						</form>
 					</div> <!-- col-6 -->
 				</div> <!-- row -->
 			</div> <!-- grid-container -->
@@ -45,14 +73,6 @@
 	            	</div>
 	            </div>
 	            <div class="swiper-slide">
-	            	<div class="grid-container">
-	            		<div class="col-8">
-	            			<h2>"Mediapreview are a highly professional company who marry first class technical skills to a ready understanding  of a brief, and a passion for getting behind a subject."</h2>
-	            			<h5>Nancy Barrett, Creative Scene</h5>
-	            		</div>
-	            	</div>
-	            </div>
-	             <div class="swiper-slide">
 	            	<div class="grid-container">
 	            		<div class="col-8">
 	            			<h2>"Mediapreview are a highly professional company who marry first class technical skills to a ready understanding  of a brief, and a passion for getting behind a subject."</h2>

@@ -129,6 +129,14 @@
 	position: relative;
 	margin-bottom: 30px;
 
+	img.lazy {
+		width: 100%;
+		height: auto;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
 	h2, p {
 		color: #fff;
 		top: 0;
@@ -508,12 +516,24 @@
 
 .movie-picker-item {
 	display: block;
+	position: relative;
+
+	.overlay {
+		position: absolute; 
+		top: 0; 
+		left: 0; 
+		z-index: 10; 
+		background: red; 
+		width: 100%; 
+		height: 100%; 
+		opacity: 0.5;
+	}
 
 	.image {
 		margin-bottom: 25px;
 	}
 
-	h2 {
+	h2, h3 {
 		color: $colorType;
 	}
 
@@ -526,15 +546,28 @@
 		@include transition( all, 0.1s, ease-in-out);
 		display: block;
 		font-size: 0.7em;
-		width: intrinsic;
+		width: 100%;
 		color: $colorGrey;
 		margin-bottom: 5px;
 		border: 0;
 	}
 
+	span {
+		color: $colorGrey;
+		text-align: right;
+		float: right;
+	}
+
 	p {
 		color: $colorType;
 		margin-bottom: 5px;
+	}
+}
+
+.col-6 .movie-picker-item {
+	h5 span {
+		float: none;
+		padding-left: 10px;
 	}
 }
 
