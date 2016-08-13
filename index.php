@@ -34,14 +34,14 @@
 					</div> <!-- col-4 -->
 					<div class="col-4">
 						<a class="discovery-item" href="/8mm">
-							<img class="lazy" data-original="images/bg-5-small.jpg">
+							<img class="lazy" data-original="images/bg-4-small.jpg">
 							<h2>8mm Distress Kit</h2>
 							<p>Films for commercial, public sector &amp; Community Clients</p>
 						</a> <!-- discovery-item -->
 					</div> <!-- col-4 -->
 					<div class="col-4">
 						<a class="discovery-item" href="/depot">
-							<img class="lazy" data-original="images/bg-4-small.jpg">
+							<img class="lazy" data-original="images/bg-5-small.jpg">
 							<h2>8mm Stock Depot</h2>
 							<p>Films for commercial, public sector &amp; Community Clients</p>
 						</a><!-- discovery-item -->

@@ -244,7 +244,7 @@ body {
       font-size: 18px; } }
   @media (max-width: 960px) {
     body {
-      font-size: 18px; } }
+      font-size: 17px; } }
   @media (max-width: 760px) {
     body {
       font-size: 16px; } }
@@ -589,7 +589,7 @@ form {
 #form-messages {
   float: left;
   display: block;
-  width: calc(100% - 160px);
+  width: calc(100% - 100px);
   margin-top: 20px;
   color: #3B3B3B;
   line-height: 1.4; }
@@ -1315,5 +1315,18 @@ a {
   padding-bottom: 3px; }
   .contact a:hover {
     border-bottom: 2px solid #3B3B3B; }
+@media (max-width: 960px) {
+  .contact h4 {
+    margin-bottom: 10px; }
+  .contact a {
+    clear: both;
+    float: none;
+    width: intrinsic;
+    display: block; }
+  .contact #form-messages {
+    font-size: 14px; }
+  .contact .form-half {
+    width: 100%;
+    margin-right: 0; } }
 
 /*# sourceMappingURL=style.css.map */

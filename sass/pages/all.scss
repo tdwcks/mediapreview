@@ -190,5 +190,27 @@
 		}
 	}
 
+	@include mq("small", "max-width") {
+		h4 {
+			margin-bottom: 10px;
+		}
+
+		a {
+			clear: both;
+			float: none;
+			width: intrinsic;
+			display: block;
+		}
+
+		#form-messages {
+			font-size: 14px;
+		}
+
+		.form-half {
+			width: 100%;
+			margin-right: 0;
+		}
+	}
+
 }
 

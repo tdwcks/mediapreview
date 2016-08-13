@@ -34,11 +34,11 @@ body {
 	}
 
 	@include mq("small", "max-width") {
-		font-size: 18px;
+		font-size: 17px;
 	}
 
 	@include mq("extra-small", "max-width") {
-		font-size: 17px;
+		font-size: 16px;
 	}
 
 	@include mq("nano", "max-width") {
