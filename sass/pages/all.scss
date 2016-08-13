@@ -168,3 +168,27 @@
 	}
 }
 
+// 	Contact
+// =================================================================
+
+.contact {
+	
+	h4 {
+		margin-bottom: 25px;
+	}
+
+	a {
+		color: $colorType;
+		display: inline-block;
+		margin: 10px 0;
+		border-bottom: 2px solid $colorGrey;
+		padding-bottom: 3px;
+
+		&:hover {
+			border-bottom: 2px solid $colorType;
+
+		}
+	}
+
+}
+
