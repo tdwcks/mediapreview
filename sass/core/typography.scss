@@ -38,7 +38,7 @@ body {
 	}
 
 	@include mq("extra-small", "max-width") {
-		font-size: 19px;
+		font-size: 17px;
 	}
 
 	@include mq("nano", "max-width") {

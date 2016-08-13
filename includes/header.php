@@ -1,10 +1,10 @@
 <header>
 	<div class="grid-container">
-		<a class="logo" href="index.php"><img src="images/logo.svg"></a>
+		<a class="logo" href="index"><img src="images/logo.svg"></a>
 		<a class="menu-trigger">Menu</a>
 		<nav>
 			<ul>
-				<li><a href="/">Home</a></li>
+				<li><a href="index">Home</a></li>
 				<li><a href="production">Video Production</a></li>
 				<li><a href="movies">Movies</a></li>
 				<li><a href="8mm">8mm Distress Kit</a></li>
