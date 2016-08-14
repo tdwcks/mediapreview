@@ -21,13 +21,13 @@
 			<div class="grid-container">
 				<div class="row">
 					<div class="col-4">
-						<a class="discovery-item" href="depot-collection.php">
+						<a class="discovery-item" href="vintage-london">
 							<h2>Contemporary London</h2>
 							<p>Stunning super 8 shots of the modern city</p>
 						</a> <!-- discovery-item -->
 					</div> <!-- col-4 -->
 					<div class="col-4">
-						<a class="discovery-item" href="depot-collection.php">
+						<a class="discovery-item" href="vintage-london">
 							<h2>Vintage London</h2>
 							<p>Fings Ain't what they used t'be</p>
 						</a> <!-- discovery-item -->

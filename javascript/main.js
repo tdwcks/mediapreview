@@ -16,12 +16,12 @@ $( ".menu-trigger" ).on( "click", function() {
 });
 
 // Vimeo player
-$(document).ready(function(){   
+$(document).ready(function(){  
 	$(".depot-video").vimeo("play").vimeo("pause");
-    $(".depot-video").mouseover(function(){
-    	$(this).vimeo("play");
+    $(".video-overlay").mouseover(function(){
+    	$(this).next('.image').find('.depot-video').vimeo("play");
     }).mouseout(function(){
-    	$(this).vimeo("pause");
+    	$(this).next('.image').find('.depot-video').vimeo("pause");
     });
 });
 
