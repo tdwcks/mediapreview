@@ -9,6 +9,7 @@
 	<?php include 'includes/header.php'; ?>
 	<article class="depot">
 		<section class="hero">
+		<img class="lazy" data-original="images/bg-6.jpg">
 			<div class="grid-container">
 				<div class="row">
 					<div class="col-6">

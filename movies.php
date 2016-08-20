@@ -13,7 +13,7 @@
 			<div class="grid-container">
 				<div class="row">
 					<div class="col-6">
-						<h2>Movies - Here is a small selection of the many films we've made over the last few years.</h2>
+						<h2>Movies - here is a small selection of the many films we've made over the last few years.</h2>
 					</div> <!-- col-6 -->
 				</div> <!-- row -->
 			</div> <!-- grid-container -->
@@ -34,7 +34,7 @@
 							<div class="image"><iframe src="//player.vimeo.com/video/144060482?color=ffffff&amp;title=0&amp;byline=0&amp;portrait=0" width="100%" height="100%" frameborder="0" class="landscape pri" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></div>
 							<h4>Train of Thought - The Inward Journey</h4>
 							<p>Commissioned by Creative Scene - day dreaming passengers share their
-secret thoughts and Transpennine staff reveal behind-the-scene truths on
+secret thoughts as railway staff reveal behind-the-scene truths on
 the journey from Huddersfield to Leeds.</p>
 							<h5>10 Mins<span>2015</span></h5>
 						</div> <!-- movie-picker -->
@@ -53,7 +53,7 @@ the journey from Huddersfield to Leeds.</p>
 						<div class="movie-picker-item">
 							<div class="image"><iframe src="//player.vimeo.com/video/81499143?color=ffffff&amp;title=0&amp;byline=0&amp;portrait=0" width="100%" height="100%" frameborder="0" class="landscape pri" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></div>
 							<h4>Ploughing and the Stars - Trailer</h4>
-							<p>Commissioned by Longley Farm and filmed over a year in England and Canada.
+							<p>Commissioned by Longley Farm, filmed over a year in England and Canada.
 Ploughing and the Stars explores the mysterious world of competiiton ploughing. A main stay on Horse and Country TV.</p>
 							<h5>04 Mins<span>2014</span></h5>
 						</div> <!-- movie-picker -->
@@ -62,8 +62,8 @@ Ploughing and the Stars explores the mysterious world of competiiton ploughing. 
 						<div class="movie-picker-item">
 							<div class="image"><iframe src="//player.vimeo.com/video/64880926?color=ffffff&amp;title=0&amp;byline=0&amp;portrait=0" width="100%" height="100%" frameborder="0" class="landscape pri" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></div>
 							<h4>Trinity Leeds - The Making of the Art Programme</h4>
-							<p>Commissioned by Land Securities Group plc, tracking the public art programme
-for the Trinity Leeds retail space, from conception to installation.</p>
+							<p>Commissioned by Land Securities Group plc, tracking the public art programme from conception to installation
+at the Leeds retail space.</p>
 							<h5>12 Mins<span>2013</span></h5>
 						</div> <!-- movie-picker -->
 					</div> <!-- col-4 -->

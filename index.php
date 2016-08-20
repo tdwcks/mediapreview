@@ -9,11 +9,11 @@
 	<?php include 'includes/header.php'; ?>
 	<article class="home">
 		<section class="hero">
-			<img class="lazy" data-original="images/bg-3.jpg">
+			<img class="lazy" data-original="images/bg-7.jpg">
 			<div class="grid-container">
 				<div class="row">
 					<div class="col-8">
-						<h2>Our first love is video production - we've been making films for commercial, public sector and community clients for over 30 years.</h2>
+						<h2>Video Production and more - since 1985</h2>
 <!-- 						<a href="movies.php" class="link-btn-one">Watch our Movies</a>
  -->					</div> <!-- col-6 -->
 				</div> <!-- row -->

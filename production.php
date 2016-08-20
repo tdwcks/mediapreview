@@ -13,7 +13,7 @@
 			<div class="grid-container">
 				<div class="row">
 					<div class="col-6">
-						<h2>We produce video programmes and products for commercial, public sector and community clients.</h2>
+						<h2>Video production for commercial, public sector and community clients</h2>
 					</div> <!-- col-6 -->
 				</div> <!-- row -->
 			</div> <!-- grid-container -->
@@ -26,9 +26,10 @@
 					</div> <!-- col-4 -->
 					<div class="col-6">
 						<p>We drill down find out what the client really needs and make sure it gets delivered to the highest standard, on time and on budget.</p>
-						<p>On the production side, using state of the art 4k DSLR technology, we work unobtrusively, striking the balance between putting interviewees at ease and shooting useable material that shows everyone in the best light - literally and metaphorically! We have extensive experience of shooting and editing green screen.</p>
-						<p>Post - production wise we specialise in Adobe Premiere and After Effects editing. Working creatively and speedily - finding the narrative, managing large amounts of material to assemble films that sparkle, flow seamlessly with a light touch and bring out the best in the participants.</p>
-						<p>We then know how to get the films seen - on websites, on demand, social and DVD.</p>
+						<p>On the production side, using state of the art 4k DSLR technology, we work unobtrusively, striking the balance between putting interviewees at ease and shooting useable material that shows everyone in the best light - literally and metaphorically! <p>We have extensive experience of shooting and editing green screen.</p>
+						<p>Post - production wise we work creatively and speedily - finding the narrative, assembling films that sparkle, flow seamlessly with a light touch and bring out the best in the participants.</p>
+						<p>Then we know how to get the films seen - on websites, on demand, social and DVD.</p>
+						<p>If you have a project in mind please get in touch.</p>
 					</div> <!-- col-6 -->
 				</div> <!-- row -->
 			</div> <!-- grid-container -->
