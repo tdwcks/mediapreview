@@ -520,6 +520,10 @@ small, .font_small {
   background-position: 0 0; }
   .swiper-button-next:hover, .swiper-button-prev:hover {
     background-image: url("images/arrow-active.svg"); }
+  @media (max-width: 960px) {
+    .swiper-button-next, .swiper-button-prev {
+      width: 17px;
+      height: 17px; } }
 
 .swiper-button-prev {
   -webkit-transform: rotate(-180deg);
@@ -533,11 +537,13 @@ small, .font_small {
   width: 100%;
   padding-top: 40px;
   padding-bottom: 30px; }
+  @media (max-width: 960px) {
+    .swiper-container {
+      padding-top: 20px;
+      padding-bottom: 0px; } }
 
 .swiper-slide {
-  text-align: left;
-  font-size: 18px;
-  /* Center slide text vertically */ }
+  text-align: left; }
 
 footer {
   padding: 25px 0 20px 0;
@@ -806,7 +812,7 @@ a {
 .hero {
   width: 100%;
   height: auto;
-  padding: 320px 0 0 0;
+  padding: 200px 0 150px 0;
   background: #3B3B3B;
   z-index: 5;
   overflow: hidden;
@@ -1028,10 +1034,13 @@ a {
       font-size: 1em; }
     .longform .col-4, .longform .col-6 {
       width: 100%; }
-    .longform .col-4 p {
-      font-size: 1.25em;
-      line-height: 1.35em;
-      margin-bottom: 20px; } }
+    .longform .col-6 {
+      margin-right: 0 !important;
+      margin-bottom: 30px; }
+    .longform .col-6 p.large {
+      font-size: 1.2em; }
+    .longform h4, .longform h5, .longform p {
+      font-size: 16px; } }
   @media (max-width: 760px) {
     .longform {
       padding: 0; }
@@ -1055,6 +1064,9 @@ a {
   text-transform: none;
   letter-spacing: 0;
   line-height: 1; }
+@media (max-width: 960px) {
+  .testimonials h5 {
+    margin-top: 15px; } }
 
 .longform-breakdown {
   width: 100%;

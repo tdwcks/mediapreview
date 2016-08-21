@@ -6,7 +6,7 @@
 .hero {
 	width: 100%;
 	height: auto;
-	padding: 320px 0 0 0;
+	padding: 200px 0 150px 0;
 	background: $colorType;
 	z-index: 5;
 	overflow: hidden;
@@ -321,10 +321,17 @@
 			width: 100%;
 		}
 
-		.col-4 p {
-			font-size: 1.25em;
-			line-height: 1.35em;
-			margin-bottom: 20px;
+		.col-6 {
+			margin-right: 0 !important;
+			margin-bottom: 30px;
+		}
+
+		.col-6 p.large {
+			font-size: 1.2em;
+		}
+
+		h4, h5, p {
+			font-size: 16px;
 		}
 	}
 
@@ -359,6 +366,12 @@
 		text-transform: none;
 		letter-spacing: 0;
 		line-height: 1;
+	}
+
+	@include mq("small", "max-width") {
+		h5 {
+			margin-top: 15px;
+		}	
 	}
 }
 
