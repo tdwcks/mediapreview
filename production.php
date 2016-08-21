@@ -58,7 +58,6 @@
 						    </div>
 						</div> <!-- Testimonials -->
 					</div> <!-- col-4 -->
-					
 				</div> <!-- row -->
 			</div> <!-- grid-container -->
 		</section> <!-- longform -->

@@ -54,10 +54,6 @@
 
 .distress {
 
-	.testimonials {
-		background: $colorGrey;
-	}
-
 	.price {
 		float: left;
 		margin-left: 20px;
@@ -86,6 +82,20 @@
 		padding-bottom: 0;
 	}
 
+	h4 {
+		margin-bottom: 30px;
+	}
+
+	.link-btn-two h4 {
+		margin-bottom: 0px;
+	}
+
+	.link-one {
+		display: block;
+		margin-top: 13px;
+		width: intrinsic;
+		float: left;
+	}
 
 	.hero {
 		padding: 50px 0 0 0;

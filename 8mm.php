@@ -19,21 +19,22 @@ MM_reloadPage(true);
 	<?php include 'includes/header.php'; ?>
 	<article class="distress">
 		<section class="video">
-			<div class="grid-inner">
+			<div class="grid-container">
 				<div class="row">
-					<div class="col-8">
+					<div class="col-6">
 						<div class="image">
 							<iframe src="https://player.vimeo.com/video/159606613?title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 						</div> <!-- image -->
 					</div> <!-- col-5 -->
-					<div class="col-4">
-						<h2>8MM DISTRESS KIT 4K</h2>
-						<h3>From The Cutting Room Floor</h3>
-						<p>Light leaks, light sweeps, flashes and colors. Damage, dust, hairs, dots, dirt, scratches, grain, sprocket holes,splotches.</p>
+					<div class="col-6">
+						<h4>8mm Distress Kit</h4>
+						<p>Light leaks, light sweeps, flashes and colors. Damage, dust, hairs, dots, dirt, scratches, grain, sprocket holes, splotches.</p>
 						<p>It's all on the 8mm Distress Kit 4K.
 Top quality scans from vintage 8mm cine film at stunning 3840 x 2160 4K resolution.</p>
 						<p>Overlay on your footage and transitions to add a sexy flourish, a touch of grunge or get that totally messed-up look!</p>
 						<a class="link-one">Preview Clips</a>
+						<a class="link-one">Free Samples</a>
+						<a href="#faq" class="link-one arrow-down">More Info</a>
 					</div> <!-- col-4 shift-1 -->
 				</div> <!-- row -->
 				<div class="row">
@@ -61,62 +62,25 @@ Top quality scans from vintage 8mm cine film at stunning 3840 x 2160 4K resoluti
 				</div>
 			</div> <!-- grid-inner -->
 		</section> <!-- video -->
-		<section class="testimonials">
-			<div class="swiper-container">
-	        <div class="swiper-wrapper">
-	            <div class="swiper-slide">
-	            	<div class="grid-container">
-	            		<div class="col-8">
-	            			<h2>Mediapreview keep leaving their chewing gum on the side of the table and it's really annoying.</h2>
-	            			<h5>Tom Wicks, Miln</h5>
-	            		</div>
-	            	</div>
-	            </div>
-	            <div class="swiper-slide">
-	            	<div class="grid-container">
-	            		<div class="col-8">
-	            			<h2>Mediapreview keep leaving their chewing gum on the side of the table and it's really annoying.</h2>
-	            			<h5>Tom Wicks, Miln</h5>
-	            		</div>
-	            	</div>
-	            </div>
-	            <div class="swiper-slide">
-	            	<div class="grid-container">
-	            		<div class="col-8">
-	            			<h2>Mediapreview keep leaving their chewing gum on the side of the table and it's really annoying.</h2>
-	            			<h5>Tom Wicks, Miln</h5>
-	            		</div>
-	            	</div>
-	            </div>
-	        </div>
-	        <!-- Add Pagination -->
-	        <div class="swiper-pagination"></div>
-	        <!-- Add Arrows -->
-	        <div class="swiper-button-next"></div>
-	        <div class="swiper-button-prev"></div>
-	    </div>
-		</section>
-		<section class="longform">
+		<section id="faq" class="longform">
 			<div class="grid-container">
 				<div class="row">
-					<div class="col-4">
-						<p>Frequently Asked Questions - Some things we often get asked about the 8mm Distress Kit</p>
-					</div> <!-- col-4 -->
 					<div class="col-6">
+						<p class="large">Frequently Asked Questions</p>
 						<h4>What is the 8mm Distress Kit - what am I getting for my money?</h4>
 						<p>The 8mm Distress Kit 4k is a collection of original video clips, scanned from vintage 8mm film at 3840 x 2160. The clips can be overlaid on video footage and transitions to give organic, analogue 8mm film effects.<p>
 						The Distress Kit comes in 2 versions;<p>
 
-8mm Distress Kit 4k_CLASSIC has 32 clips, a 5.16GB download.<p>
+					8mm Distress Kit 4k_CLASSIC has 32 clips, a 5.16GB download.<p>
 
-8mm Distress Kit 4k_PREMIUM has the 32 clips from the CLASSIC version plus an additional 32 - 64 in total, a 4.5GB download.<p>
+					8mm Distress Kit 4k_PREMIUM has the 32 clips from the CLASSIC version plus an additional 32 - 64 in total, a 4.5GB download.<p>
 
-The clips range from 1 sec to 1 minute 37 secs in length and are divided into 5 folders - Damage, Light Leaks, Numbers and Text, Grunge and Transitions.</p>
-						<h4>What is the resolution, file format and frame rate?</h4>
-						<p>4k 3840 x 2160. The video codec is Photo JPEG. The frame rate is 25fps - this can be modified for use in other frame rate projects</p>
-						<h4>What platform and applications can they be used with?</h4>
-						
-	<p>The clips are cross-platform and can be used with any NLE and motion graphic application that supports, composite, blending or transfer modes. The system needs to be able to support 4K footage. We suggest downloading the free samples to test.</p>
+					The clips range from 1 sec to 1 minute 37 secs in length and are divided into 5 folders - Damage, Light Leaks, Numbers and Text, Grunge and Transitions.</p>
+											<h4>What is the resolution, file format and frame rate?</h4>
+											<p>4k 3840 x 2160. The video codec is Photo JPEG. The frame rate is 25fps - this can be modified for use in other frame rate projects</p>
+											<h4>What platform and applications can they be used with?</h4>
+											
+						<p>The clips are cross-platform and can be used with any NLE and motion graphic application that supports, composite, blending or transfer modes. The system needs to be able to support 4K footage. We suggest downloading the free samples to test.</p>
 						<h4>What's the quality like?</h4>
 						<p>The files are made using the best possible quality, scans from 8mm film. Given that they are deliberately chosen to 'distress' they can be used within most settings.</p>
 						<h4>What is the upgrade path?</h4>
@@ -126,6 +90,35 @@ The clips range from 1 sec to 1 minute 37 secs in length and are divided into 5 
 						<h4>Mediapreview Ltd</h4>
 						<p>23 Wildspur Mills, New Mill, Holmfirth, West Yorkshire, HD9 7BA</p>
 					</div> <!-- col-6 -->
+					<div class="col-4">
+						<div class="testimonials">
+					        <div class="swiper-controls">
+						        <div class="swiper-button-next"></div>
+						        <div class="swiper-button-prev"></div>
+					        </div>
+					        <h4>Testimonials</h4>
+							<div class="swiper-container">
+						        <div class="swiper-wrapper">
+						            <div class="swiper-slide">
+				            			<p>"Mediapreview and Longley Farm have worked together for nearly twenty years now. They can put together all that is needed from idea to edit; from script to soundtrack. They are totally reliable and you can be sure of a good result."</p>
+				            			<h5>Jim Dickinson, Longley Farm</h5>
+						            </div>
+						            <div class="swiper-slide">
+				            			<p>"Mediapreview are a highly professional company who marry first class technical skills to a ready understanding  of a brief, and a passion for getting behind a subject."</p>
+				            			<h5>Nancy Barrett, Creative Scene</h5>
+						            </div>
+						             <div class="swiper-slide">
+				            			<p>"Mediapreview are a highly professional company who marry first class technical skills to a ready understanding  of a brief, and a passion for getting behind a subject."</p>
+				            			<h5>Nancy Barrett, Creative Scene</h5>
+						            </div>
+						            <div class="swiper-slide">
+				            			<p>Mediapreview keep leaving their chewing gum on the side of the table and it's really annoying.</p>
+				            			<h5>Tom Wicks, Miln</h5>
+						            </div>
+						        </div>
+						    </div>
+						</div> <!-- Testimonials -->
+					</div> <!-- col-4 -->
 				</div> <!-- row -->
 			</div> <!-- grid-container -->
 		</section> <!-- longform -->

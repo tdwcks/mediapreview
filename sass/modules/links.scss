@@ -11,19 +11,23 @@ a {
 .link-one {
 	color: #fff;
 	position: relative;
-	margin-right: 40px;
+	margin-right: 75px;
 
 	&:after {
 		content: "";
 		position: absolute;
-		right: -20px;
-		top: 8px;
+		right: -30px;
+		top: 3px;
 		display: block;
 		width: 14px;
 		height: 14px;
 		background-image: url('images/arrow-right.svg');
 		background-size: 100% 100%;
 		background-position: 0 0;
+	}
+
+	&.arrow-down:after {
+		@include transform(rotate(90deg));
 	}
 }
 
@@ -77,38 +81,38 @@ a {
 	}
 
 	&.green {
-		background: #fc7653;
+		background: #00C4B3;
 
 		h4 {
-			color: #fc7653;
+			color: #00C4B3;
 		}
 
 		&:hover {
-			background: darken(#fc7653, 7%);
+			background: darken(#00C4B3, 3%);
 		}
 	}
 
 	&.blue {
-		background: #1261fb;
+		background: #0174C8;
 
 		h4 {
-			color: #1261fb;
+			color: #0174C8;
 		}
 
 		&:hover {
-			background: darken(#1261fb, 7%);
+			background: darken(#0174C8, 3%);
 		}
 	}
 
 	&.grey {
-		background: #656565;
+		background: #00BC70;
 
 		h4 {
-			color: #656565;
+			color: #00BC70;
 		}
 
 		&:hover {
-			background: lighten(#656565, 7%);
+			background: lighten(#00BC70, 3%);
 		}
 	}
 }
