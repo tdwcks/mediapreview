@@ -27,14 +27,13 @@ MM_reloadPage(true);
 						</div> <!-- image -->
 					</div> <!-- col-5 -->
 					<div class="col-4">
-						<h2>8MM Distress Kit 4K</h2>
-						<h5>28 clips now in 4k</h5>
+						<h2>8MM DISTRESS KIT 4K</h2>
+						<h3>From The Cutting Room Floor</h3>
 						<p>Light leaks, light sweeps, flashes and colors. Damage, dust, hairs, dots, dirt, scratches, grain, sprocket holes,splotches.</p>
 						<p>It's all on the 8mm Distress Kit 4K.
 Top quality scans from vintage 8mm cine film at stunning 3840 x 2160 4K resolution.</p>
 						<p>Overlay on your footage and transitions to add a sexy flourish, a touch of grunge or get that totally messed-up look!</p>
 						<a class="link-one">Preview Clips</a>
-						<a class="link-one">Individual Clips</a>
 					</div> <!-- col-4 shift-1 -->
 				</div> <!-- row -->
 				<div class="row">
@@ -46,7 +45,7 @@ Top quality scans from vintage 8mm cine film at stunning 3840 x 2160 4K resoluti
 						</a>	
 					</div>
 					<div class="col-4">
-						<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&i=1482225&cl=192887&ejc=2" target="ej_ejc" class="ec_ejc_thkbx link-btn-two blue" onClick="javascript:return EJEJC_lc(this);">
+						<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;ejc=2&amp;cl=192887&amp;i=1482225" target="ej_ejc" class="ec_ejc_thkbx link-btn-two blue" onClick="javascript:return EJEJC_lc(this);">
 							<h3>8mm Distress Kit 4K PREMIUM</h3>
 							<p>For those who can't get enough! Best Value - all the CLASSIC clips plus 32 extras</p>
 							<h4>Buy 64 Clips - &#163;89</h4>
@@ -122,11 +121,10 @@ The clips range from 1 sec to 1 minute 37 secs in length and are divided into 5 
 						<p>The files are made using the best possible quality, scans from 8mm film. Given that they are deliberately chosen to 'distress' they can be used within most settings.</p>
 						<h4>What is the upgrade path?</h4>
 						<p>Customers who have purchased the CLASSIC any other previous version of the Distress Kit can upgrade to the PREMIUM version at any time. We need the email adress that was used to make the original purchase. Once payment is complete we will send a link to the PREMIUM 4k files.<p>
-
-
-<h4>How do I pay? - what happens next?</h4>
+						<h4>How do I pay? - what happens next?</h4>
 						<p>Payment is by PayPal via e-junkie, (you don't need a PayPal account) after you have paid you will automatically be directed to a link where you can download the 8mm Distress Kit_ 4K.</p>
-
+						<h4>Mediapreview Ltd</h4>
+						<p>23 Wildspur Mills, New Mill, Holmfirth, West Yorkshire, HD9 7BA</p>
 					</div> <!-- col-6 -->
 				</div> <!-- row -->
 			</div> <!-- grid-container -->

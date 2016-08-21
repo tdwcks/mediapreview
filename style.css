@@ -288,7 +288,9 @@ p.serif {
   font-size: 1.1em; }
 
 p.large {
-  font-size: 1.5em; }
+  font-size: 1.4em;
+  line-height: 1.3;
+  color: #3F3F3F; }
 
 ol, ul {
   padding: 0.3em 0 0.3em 0; }
@@ -502,22 +504,40 @@ small, .font_small {
 .swiper-container-horizontal > .swiper-pagination .swiper-pagination-bullet {
   margin: 0 7px; }
 
+.swiper-controls {
+  float: right; }
+
+.swiper-button-next, .swiper-button-prev {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  margin-top: 15px;
+  display: block;
+  float: right;
+  background-image: url("images/arrow.svg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: 0 0; }
+  .swiper-button-next:hover, .swiper-button-prev:hover {
+    background-image: url("images/arrow-active.svg"); }
+
+.swiper-button-prev {
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+  margin-right: 10px; }
+
+.swiper-container {
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 30px; }
+
 .swiper-slide {
-  text-align: center;
+  text-align: left;
   font-size: 18px;
-  /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center; }
+  /* Center slide text vertically */ }
 
 footer {
   padding: 25px 0 20px 0;
@@ -753,7 +773,7 @@ a {
   .link-btn-two h3 {
     margin-top: 15px;
     color: #fff;
-    padding-bottom: 15px; }
+    padding-bottom: 0px; }
   .link-btn-two p {
     text-transform: none;
     letter-spacing: 0;
@@ -762,7 +782,8 @@ a {
     padding-bottom: 0;
     width: 100%;
     padding: 10px 0;
-    background: #fff; }
+    background: #fff;
+    font-size: 1.2em; }
   .link-btn-two.green {
     background: #fc7653; }
     .link-btn-two.green h4 {
@@ -785,7 +806,7 @@ a {
 .hero {
   width: 100%;
   height: auto;
-  padding: 200px 0 150px 0;
+  padding: 320px 0 0 0;
   background: #3B3B3B;
   z-index: 5;
   overflow: hidden;
@@ -998,6 +1019,8 @@ a {
     color: #000; }
   .longform p {
     color: #747474; }
+  .longform p.large {
+    color: #3F3F3F; }
   @media (max-width: 960px) {
     .longform .grid-container {
       width: 80%; }
@@ -1019,54 +1042,19 @@ a {
       .longform .col-4 p {
         margin-bottom: 0; } }
 
-.testimonials {
-  background: #3B3B3B;
-  padding: 75px 0 50px 0; }
-  .testimonials .col-8 {
-    display: block;
-    float: none;
-    margin: 0 auto; }
-    .testimonials .col-8 h2 {
-      color: #fff;
-      text-align: center; }
-    .testimonials .col-8 h5 {
-      text-transform: none;
-      letter-spacing: 0;
-      padding-top: 20px;
-      color: #fff;
-      margin-bottom: 25px; }
-  @media (max-width: 960px) {
-    .testimonials {
-      padding: 60px 0; }
-      .testimonials .col-8 {
-        width: 90%; }
-      .testimonials h2 {
-        font-size: 1.25em; } }
-  @media (max-width: 760px) {
-    .testimonials {
-      padding: 50px 0; }
-      .testimonials .col-8 {
-        width: 90%; }
-      .testimonials h2 {
-        font-size: 1.15em; } }
-  @media (max-width: 595px) {
-    .testimonials {
-      padding: 30px 0; }
-      .testimonials h2, .testimonials h5 {
-        font-size: 1em;
-        line-height: 1.3; } }
-  @media (max-width: 350px) {
-    .testimonials {
-      padding: 40px 0; }
-      .testimonials h2 {
-        font-size: 1em;
-        line-height: 1.3; }
-      .testimonials h5 {
-        font-size: 0.9em; }
-      .testimonials .swiper-pagination-bullet {
-        width: 8px;
-        height: 8px;
-        margin-right: 3px; } }
+.testimonials p {
+  width: 100%;
+  display: block; }
+.testimonials h4 {
+  float: left; }
+.testimonials h5 {
+  margin-top: 30px;
+  clear: both;
+  width: 100%;
+  display: block;
+  text-transform: none;
+  letter-spacing: 0;
+  line-height: 1; }
 
 .longform-breakdown {
   width: 100%;
@@ -1243,6 +1231,12 @@ a {
 .distress .video {
   padding-bottom: 25px;
   padding-top: 120px; }
+.distress h3 {
+  color: #fff;
+  margin-bottom: 25px; }
+.distress h2 {
+  font-size: 1.2em;
+  padding-bottom: 0; }
 .distress .hero {
   padding: 50px 0 0 0; }
   .distress .hero h1 {

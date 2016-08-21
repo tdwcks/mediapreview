@@ -22,8 +22,9 @@
         pagination: '.swiper-pagination',
         paginationClickable: true,
         nextButton: '.swiper-button-next',
+        loop: true,
         prevButton: '.swiper-button-prev',
         spaceBetween: 30, 
-        autoplay: 5000
+        autoplay: 6000
     });
 </script>
