@@ -25,6 +25,6 @@
         loop: true,
         prevButton: '.swiper-button-prev',
         spaceBetween: 30, 
-        autoplay: 6000
+        autoplay: 8000
     });
 </script>
