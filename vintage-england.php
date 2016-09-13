@@ -9,11 +9,11 @@
 	<?php include 'includes/header.php'; ?>
 	<article class="depot-collection">
 		<section class="hero">
-		<img class="lazy" data-original="images/bg-8.jpg">
+		<img class="lazy" data-original="images/bg-9.jpg">
 			<div class="grid-container">
 				<div class="row">
 					<div class="col-6">
-						<h2>Vintage London</h2>
+						<h2>Vintage England</h2>
 					</div> <!-- col-6 -->
 				</div> <!-- row -->
 			</div> <!-- grid-container -->
@@ -22,7 +22,7 @@
 			<div class="grid-container">
 				<div class="row">
 					<a class="base" href="depot">8mm Stock Depot</a>
-					<a href="">Vintage London</a>
+					<a href="">Vintage England</a>
 				</div>
 			</div>
 		</section>

@@ -29,21 +29,21 @@
 						<a class="discovery-item" href="production">
 							<img class="lazy" data-original="images/bg-1-small.jpg">
 							<h2>Production</h2>
-							<p>Films for commercial, public sector &amp; Community Clients</p>
+							<p>We make films for commercial, public sector &amp; community based clients</p>
 						</a> <!-- discovery-item -->
 					</div> <!-- col-4 -->
 					<div class="col-4">
 						<a class="discovery-item" href="8mm">
 							<img class="lazy" data-original="images/bg-4-small.jpg">
 							<h2>8mm Distress Kit</h2>
-							<p>Films for commercial, public sector &amp; Community Clients</p>
+							<p>Give your films a touch of old skool sizzle with our top selling 8mm cine effects</p>
 						</a> <!-- discovery-item -->
 					</div> <!-- col-4 -->
 					<div class="col-4">
 						<a class="discovery-item" href="depot">
 							<img class="lazy" data-original="images/bg-5-small.jpg">
 							<h2>8mm Stock Depot</h2>
-							<p>Films for commercial, public sector &amp; Community Clients</p>
+							<p>Our treasure trove of stunning vintage 8mm film, licensed worldwide</p>
 						</a><!-- discovery-item -->
 					</div> <!-- col-4 -->
 				</div> <!-- row -->

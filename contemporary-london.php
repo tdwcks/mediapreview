@@ -9,11 +9,10 @@
 	<?php include 'includes/header.php'; ?>
 	<article class="depot-collection">
 		<section class="hero">
-		<img class="lazy" data-original="images/bg-8.jpg">
 			<div class="grid-container">
 				<div class="row">
 					<div class="col-6">
-						<h2>Vintage London</h2>
+						<h2>Vintage London - Fings Ain't what they used t'be</h2>
 					</div> <!-- col-6 -->
 				</div> <!-- row -->
 			</div> <!-- grid-container -->

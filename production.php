@@ -13,7 +13,7 @@
 			<div class="grid-container">
 				<div class="row">
 					<div class="col-6">
-						<h2>Video production for commercial, public sector and community clients</h2>
+						<h2>"The kind of films they produce don’t sit on a shelf gathering dust. People watch and use them!”</h2>
 					</div> <!-- col-6 -->
 				</div> <!-- row -->
 			</div> <!-- grid-container -->
@@ -47,17 +47,23 @@
 				            			<h5>Nancy Barrett, Creative Scene</h5>
 						            </div>
 						             <div class="swiper-slide">
-				            			<p>"Mediapreview are a highly professional company who marry first class technical skills to a ready understanding  of a brief, and a passion for getting behind a subject."</p>
-				            			<h5>Nancy Barrett, Creative Scene</h5>
+				            			<p>“Andy is always a pleasure to work with; making people he films feel at ease, totally understanding the brief, editing sensitively and delivering edited material on time and in a variety of formats. Andy is friendly, reliable, professional and the results are always of a very high standard. The kind of films he produces don’t sit on a shelf gathering dust. People watch and use them!”</p>
+				            			<h5>Kim Strickson, Kirklees MC</h5>
 						            </div>
 						            <div class="swiper-slide">
-				            			<p>Mediapreview keep leaving their chewing gum on the side of the table and it's really annoying.</p>
-				            			<h5>Tom Wicks, Miln</h5>
+				            			<p>“Andy is great to work with and brings a touch of class to any film. His easy going and sensitive manner helps put nervous interviewees at ease, his thoughtful and creative approach helps find the story in any situation and a great structure to tell it, and his sublime editing skills efficiently draws out the best from any material to produce yet another compelling programme.”</p>
+				            			<h5>Chris Squire, Impossible Arts</h5>
+
+				            		</div>
+						            <div class="swiper-slide">
+				            			<p>“I had the great privilege of recently working with Andy Wicks. With Andy's expert editing skills and guidance we made a short film that I am really proud of. Andy is calm, patient and caring in his work and he taught me a lot along the way. He is totally reliable and trustworthy and a pleasure to work with. The fact that he enjoyed the process too made the whole experience really fulfilling. I cannot thank Andy enough and will definitely work with him again and recommend his editing skills to all my friends and colleagues.”</p>
+				            			<h5>Annie Cornbleet, Cettie, London</h5>
 						            </div>
 						        </div>
 						    </div>
 						</div> <!-- Testimonials -->
 					</div> <!-- col-4 -->
+					
 				</div> <!-- row -->
 			</div> <!-- grid-container -->
 		</section> <!-- longform -->
