@@ -16,7 +16,7 @@ form {
 		}
 	}
 
-	input, textarea, button {
+	input[type="text"], input[type="email"], input[type="submit"], textarea, button {
 		width: 100%;
 		padding: 15px 15px;
 		margin: 20px 0;
