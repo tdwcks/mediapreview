@@ -769,8 +769,9 @@ a {
 
 .link-btn-two {
   padding: 15px 15px;
-  background: #6ac0a1;
+  background: #000;
   width: 100%;
+  position: relative;
   box-sizing: border-box;
   color: #3B3B3B;
   display: block;
@@ -784,11 +785,28 @@ a {
   -moz-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out; }
+  transition: all 0.2s ease-in-out;
+  overflow: hidden; }
+  .link-btn-two img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    opacity: 0.7; }
   .link-btn-two h3 {
     margin-top: 15px;
+    position: relative;
+    z-index: 10;
     color: #fff;
-    padding-bottom: 0px; }
+    padding-bottom: 0px;
+    color: #3B3B3B; }
   .link-btn-two p {
     text-transform: none;
     letter-spacing: 0;
@@ -798,25 +816,11 @@ a {
     width: 100%;
     padding: 10px 0;
     background: #fff;
-    font-size: 1.2em; }
-  .link-btn-two.green {
-    background: #00C4B3; }
-    .link-btn-two.green h4 {
-      color: #00C4B3; }
-    .link-btn-two.green:hover {
-      background: #00b5a5; }
-  .link-btn-two.blue {
-    background: #0174C8; }
-    .link-btn-two.blue h4 {
-      color: #0174C8; }
-    .link-btn-two.blue:hover {
-      background: #016bb9; }
-  .link-btn-two.grey {
-    background: #00BC70; }
-    .link-btn-two.grey h4 {
-      color: #00BC70; }
-    .link-btn-two.grey:hover {
-      background: #00cb79; }
+    font-size: 1.2em;
+    z-index: 10;
+    position: relative; }
+  .link-btn-two:hover img {
+    opacity: 0.6; }
 
 .hero {
   width: 100%;
@@ -1245,6 +1249,9 @@ a {
 .home .video h4 {
   font-size: 1.424em; }
 
+.about .hero h2 {
+  font-size: 1.4em; }
+
 @media (max-width: 960px) {
   .movie .discovery .row .col-4:last-child {
     display: none; } }
@@ -1254,6 +1261,8 @@ a {
 
 .distress .video h4 {
   margin-bottom: 20px; }
+.distress .video .link-btn-two h4 {
+  color: #3B3B3B; }
 .distress .price {
   float: left;
   margin-left: 20px;
@@ -1274,6 +1283,9 @@ a {
   margin-top: -5px; }
 .distress p {
   padding-bottom: 20px; }
+.distress .link-btn-two h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px; }
 .distress .link-btn-two h4 {
   margin-bottom: 0px; }
 .distress .link-one {

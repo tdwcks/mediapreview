@@ -47,8 +47,9 @@ a {
 
 .link-btn-two {
 	padding: 15px 15px;
-	background: #6ac0a1;
+	background: #000;
 	width: 100%;
+	position: relative;
 	box-sizing: border-box;
 	color: $colorType;
 	display: block;
@@ -59,11 +60,26 @@ a {
 	font-size: 0.88em;
 	letter-spacing: 1px;
 	@include transition(all, 0.2s, ease-in-out);
+	overflow: hidden;
+
+	img {
+		width: 100%;
+		height: auto;
+		position: absolute;
+		@include transition(all, 0.2s, ease-in-out);
+		top: 0;
+		left: 0;
+		z-index: 0;
+		opacity: 0.7;
+	}
 
 	h3 {
 		margin-top: 15px;
+		position: relative;
+		z-index: 10;
 		color: #fff;
 		padding-bottom: 0px;
+		color: $colorType;
 	}
 
 	p {
@@ -78,41 +94,11 @@ a {
 		padding: 10px 0;
 		background: #fff;
 		font-size: 1.2em;
+		z-index: 10;
+		position: relative;
 	}
 
-	&.green {
-		background: #00C4B3;
-
-		h4 {
-			color: #00C4B3;
-		}
-
-		&:hover {
-			background: darken(#00C4B3, 3%);
-		}
-	}
-
-	&.blue {
-		background: #0174C8;
-
-		h4 {
-			color: #0174C8;
-		}
-
-		&:hover {
-			background: darken(#0174C8, 3%);
-		}
-	}
-
-	&.grey {
-		background: #00BC70;
-
-		h4 {
-			color: #00BC70;
-		}
-
-		&:hover {
-			background: lighten(#00BC70, 3%);
-		}
+	&:hover img {
+		opacity: 0.6;
 	}
 }

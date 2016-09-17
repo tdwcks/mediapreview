@@ -33,13 +33,14 @@ MM_reloadPage(true);
 Top quality scans from vintage 8mm cine film at stunning 3840 x 2160 4K resolution.</p>
 						<p>Overlay on your footage and transitions to add a sexy flourish, a touch of grunge or get that totally messed-up look!</p>
 						<a class="link-one">Preview Clips</a>
-						<a class="link-one right-link">Free Samples</a>
+						<a href="https://s3-us-west-2.amazonaws.com/mediapreviewhdsue674hdhf/DK8gfsggsjjdjdj/8mmDistressKit4K_FreeSamples.zip" class="link-one right-link">Free Samples</a>
 						<a href="#faq" class="link-one arrow-down">More Info</a>
 					</div> <!-- col-4 shift-1 -->
 				</div> <!-- row -->
 				<div class="row">
 					<div class="col-4">
 						<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&i=1482220&cl=192887&ejc=2" target="ej_ejc" class="ec_ejc_thkbx link-btn-two green" onClick="javascript:return EJEJC_lc(this);">
+							<img class="lazy" data-original="images/bg-1-small.jpg">
 							<h3>8mm Distress Kit 4K CLASSIC</h3>
 							<p>Our top seller since 2009, now re-scanned to stunning 4k resolution</p>
 							<h4>Buy 32 Clips - &#163;55</h4>
@@ -47,13 +48,15 @@ Top quality scans from vintage 8mm cine film at stunning 3840 x 2160 4K resoluti
 					</div>
 					<div class="col-4">
 						<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;ejc=2&amp;cl=192887&amp;i=1482225" target="ej_ejc" class="ec_ejc_thkbx link-btn-two blue" onClick="javascript:return EJEJC_lc(this);">
+							<img class="lazy" data-original="images/bg-4-small.jpg">
 							<h3>8mm Distress Kit 4K PREMIUM</h3>
-							<p>For those who can't get enough! Best Value - all the CLASSIC clips plus 32 extras</p>
+							<p>For those who can't get enough! - all the CLASSIC clips plus 32 extras</p>
 							<h4>Buy 64 Clips - &#163;89</h4>
 						</a>
 					</div>
 					<div class="col-4 grey">
 						<a href="4k-upgrade" target="_blank" class="link-btn-two grey">
+							<img class="lazy" data-original="images/bg-5-small.jpg">
 							<h3>Upgrade to PREMIUM</h3>
 							<p>Upgrade from CLASSIC and all previous versions to 4k PREMIUM</p>
 							<h4>UPGRADE - &#163;39</h4>
