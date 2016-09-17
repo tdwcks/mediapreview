@@ -12,9 +12,11 @@
 		<img class="lazy" data-original="images/bg-6.jpg">
 			<div class="grid-container">
 				<div class="row">
-					<div class="col-6">
-						<h2>8mm Stock Footage</h2>
-					</div> <!-- col-6 -->
+					<div class="col-4 right">
+						<h2>The Magic of 8mm Film</h2>
+						<p>We love it - here you can browse and license our fantastic, ever expanding 8mm film collections - scanned to top quality 1920 x 1080 HD.</p>
+						<p>These fresh and unique palettes will bring the magic and thrill of 8mm to your productions.</p>
+					</div> <!-- col-4 -->
 				</div> <!-- row -->
 			</div> <!-- grid-container -->
 		</section> <!-- hero -->

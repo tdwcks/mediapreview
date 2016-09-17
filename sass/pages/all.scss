@@ -7,6 +7,10 @@
 // =================================================================
 
 .home {
+	.hero {
+		padding: 176px 0 140px 0;
+	}
+
 	.discovery {
 		h1 {
 			padding: 10px 0;
@@ -82,8 +86,12 @@
 	}
 
 	h2 {
-		font-size: 1.2em;
-		padding-bottom: 0;
+		padding-bottom: 0px;
+		margin-top: -5px;
+	}
+
+	p {
+		padding-bottom: 20px;
 	}
 
 	.link-btn-two h4 {
@@ -95,6 +103,10 @@
 		margin-top: 13px;
 		width: intrinsic;
 		float: left;
+	}
+
+	.longform h4 {
+		padding-top: 0;
 	}
 
 	.hero {
@@ -165,6 +177,25 @@
 			color: #fff;
 		}
 	}
+
+	@include mq("small", "max-width") {
+
+		.video {
+			padding-top: 70px;
+		}
+
+		.video a.right-link {
+			margin-right: 0;
+		}
+
+		.video .col-6 {
+			width: 100%;
+		}
+
+		.video .col-6 h2 {
+			margin-top: 30px;
+		}
+	}
 }
 
 // 	Depot
@@ -173,19 +204,77 @@
 .depot {
 	.discovery .discovery-item {
 		margin-bottom: 0;
+
+		img {
+			opacity: 0.5;
+		}
 		
 		@include mq("small", "max-width") {
 			margin-bottom: 30px;
 		}
 	}
+
+	.hero {
+		padding-top: 150px;
+		padding-bottom: 60px;
+
+		img {
+			opacity: 0.45;
+		}
+
+		.row {
+			margin-top: 0;
+		}
+
+		.col-4 {
+			z-index: 10;
+			position: relative;
+		}
+
+		h2, p {
+			text-align: left;
+			color: #fff;
+		}
+
+		h2 {
+			margin-bottom: 15px;
+		}
+	}
+
+	@include mq("small", "max-width") {
+		.hero .col-4 {
+			width: 100%;
+		}
+
+		.col-4 h2 {
+			text-align: center;
+		}
+
+		.col-4 p {
+			font-size: 1.1em;
+		}
+	}
 }
 
 .depot-collection {
+
 	.movie-picker {
 		padding: 0 0 0 0;
 
 		h5 {
 			margin-bottom: 24px;
+		}
+	}
+
+	.hero .col-3 {
+		float: left;
+		margin-top: -50px;
+		z-index: 10;
+		position: relative;
+
+		p {
+			color: #fff;
+			font-size: 0.8em;
 		}
 	}
 
@@ -196,6 +285,39 @@
 		z-index: 10; 
 		width: 100%; 
 		height: 100%; 
+	}
+
+	.link-one {
+		float: right;
+	}
+
+	.link-one {
+		margin-right: 30px;
+	}
+
+	.link-one:last-child {
+		margin-right: 70px;
+	}
+
+	@include mq("small", "max-width") {
+
+		.hero {
+			padding-top: 150px;
+			padding-bottom: 0px;
+		}
+
+		.hero .col-3 {
+			float: none;
+			width: 100%;
+			text-align: center;
+			width: 250px;
+			display: block;
+			margin: 0 auto;
+		}
+
+		.hero .col-3 p {
+			padding-top: 100px;
+		}
 	}
 }
 

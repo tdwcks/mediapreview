@@ -27,13 +27,13 @@ MM_reloadPage(true);
 						</div> <!-- image -->
 					</div> <!-- col-5 -->
 					<div class="col-6">
-						<h4>8mm Distress Kit</h4>
+						<h2>8mm Distress Kit</h2><h4>From The Cutting Room Floor</h4>
 						<p>Light leaks, light sweeps, flashes and colors. Damage, dust, hairs, dots, dirt, scratches, grain, sprocket holes, splotches.</p>
 						<p>It's all on the 8mm Distress Kit 4K.
 Top quality scans from vintage 8mm cine film at stunning 3840 x 2160 4K resolution.</p>
 						<p>Overlay on your footage and transitions to add a sexy flourish, a touch of grunge or get that totally messed-up look!</p>
 						<a class="link-one">Preview Clips</a>
-						<a class="link-one">Free Samples</a>
+						<a class="link-one right-link">Free Samples</a>
 						<a href="#faq" class="link-one arrow-down">More Info</a>
 					</div> <!-- col-4 shift-1 -->
 				</div> <!-- row -->
@@ -53,7 +53,7 @@ Top quality scans from vintage 8mm cine film at stunning 3840 x 2160 4K resoluti
 						</a>
 					</div>
 					<div class="col-4 grey">
-						<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&cl=192887&ejc=2" target="ej_ejc" class="ec_ejc_thkbx link-btn-two grey" onClick="javascript:return EJEJC_lc(this);">
+						<a href="4k-upgrade" target="_blank" class="link-btn-two grey">
 							<h3>Upgrade to PREMIUM</h3>
 							<p>Upgrade from CLASSIC and all previous versions to 4k PREMIUM</p>
 							<h4>UPGRADE - &#163;39</h4>

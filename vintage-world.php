@@ -10,11 +10,15 @@
 	<article class="depot-collection">
 		<section class="hero">
 		<img class="lazy" data-original="images/bg-12.jpg">
+			<div class="gradient"></div>
 			<div class="grid-container">
 				<div class="row">
 					<div class="col-6">
 						<h2>Vintage World</h2>
 					</div> <!-- col-6 -->
+					<div class="col-3">
+						<p>1920x1080 HD 25fps - some at 2k Photo JPEG codec Not scaled or stabilised.</p>
+					</div>
 				</div> <!-- row -->
 			</div> <!-- grid-container -->
 		</section> <!-- hero -->

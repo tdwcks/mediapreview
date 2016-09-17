@@ -10,6 +10,7 @@
 	<article class="depot-collection">
 		<section class="hero">
 		<img class="lazy" data-original="images/bg-10.jpg">
+			<div class="gradient"></div>
 			<div class="grid-container">
 				<div class="row">
 					<div class="col-6">
@@ -24,6 +25,8 @@
 					<a class="base" href="depot">8mm Stock Depot</a>
 					<a href="">Vintage USA</a>
 				</div>
+				<a href="contact" target="_blank" class="link-one">Make A Licensing Enquiry</a>
+				<a href="http://www.mediapreview.net/Stock/8mmDepot/fsdl/bvd76hd97hdbdb6354e8/vlfs.mov.zip" class="link-one">Download Watermarked Sample</a>
 			</div>
 		</section>
 		<section class="movie-picker">

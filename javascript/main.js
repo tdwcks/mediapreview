@@ -28,7 +28,7 @@ $(document).ready(function(){
 $( ".js-movie-picker-item" ).on( "click", function() {
 	
 	// Get vimeo url, caption and video length from target
-	var videoUrl = $(this).find('iframe').attr("src").replace('autoplay=0', 'autoplay=1');
+	var videoUrl = $(this).find('iframe').attr("src").replace('autoplay=0', 'autoplay=1').replace('&background=1', '&background=0');
 		caption = $( this ).find('h4').html();
 		time = $( this ).find('h5').html();
 

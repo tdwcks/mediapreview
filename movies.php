@@ -10,6 +10,7 @@
 	<article class="movies">
 		<section class="hero">
 			<img class="lazy" data-original="images/bg-5.jpg">
+			<div class="gradient"></div>
 			<div class="grid-container">
 				<div class="row">
 					<div class="col-6">

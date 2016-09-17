@@ -14,6 +14,9 @@
 					<div class="col-6">
 						<h2>Vintage London - Fings Ain't what they used t'be</h2>
 					</div> <!-- col-6 -->
+					<div class="col-3">
+						<p>1920x1080 HD 25fps - some at 2k Photo JPEG codec Not scaled or stabilised.</p>
+					</div>
 				</div> <!-- row -->
 			</div> <!-- grid-container -->
 		</section> <!-- hero -->
@@ -22,6 +25,8 @@
 				<div class="row">
 					<a class="base" href="depot">8mm Stock Depot</a>
 					<a href="">Vintage London</a>
+					<a href="contact" target="_blank" class="link-one">Make A Licensing Enquiry</a>
+					<a href="http://www.mediapreview.net/Stock/8mmDepot/fsdl/bvd76hd97hdbdb6354e8/vlfs.mov.zip" class="link-one">Download Watermarked Sample</a>
 				</div>
 			</div>
 		</section>
