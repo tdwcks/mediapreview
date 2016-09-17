@@ -867,13 +867,13 @@ a {
     .hero .col-8, .hero .col-6 {
       width: -moz-calc(66.64% - 10px);
       width: -webkit-calc(66.64% - 10px);
-      width: calc(66.64% - 10px); }
-    .hero img {
-      width: auto;
-      height: 100%; } }
+      width: calc(66.64% - 10px); } }
   @media (max-width: 960px) {
     .hero {
       padding-bottom: 100px; }
+      .hero img {
+        width: auto;
+        height: 100%; }
       .hero .col-8, .hero .col-6 {
         width: 100%; } }
   @media (max-width: 595px) {
@@ -1240,8 +1240,6 @@ a {
     .lightbox .col-6 {
       width: 100% !important; } }
 
-.home .hero {
-  padding: 176px 0 140px 0; }
 .home .discovery h1 {
   padding: 10px 0; }
 .home .video h4 {

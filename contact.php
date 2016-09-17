@@ -9,12 +9,12 @@
 	<?php include 'includes/header.php'; ?>
 	<article class="contact">
 		<section class="hero">
-			<img class="lazy" data-original="images/bg-1.jpg">
+			<img class="lazy" data-original="images/bg-13.jpg">
 			<div class="gradient"></div>
 			<div class="grid-container">
 				<div class="row">
 					<div class="col-6">
-						<h2>Contact us for video programmes and products for commercial, public sector.</h2>
+						<h2>Get In Touch</h2>
 					</div> <!-- col-6 -->
 				</div> <!-- row -->
 			</div> <!-- grid-container -->
