@@ -140,13 +140,14 @@
 	cursor: pointer;
 	position: relative;
 	margin-bottom: 30px;
+	overflow: hidden;
 
 	img.lazy {
-		width: 100%;
+		width: 105%;
 		height: auto;
 		position: absolute;
 		top: 0;
-		left: 0;
+		left: -2.5%;
 	}
 
 	h2, p {

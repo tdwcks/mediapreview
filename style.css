@@ -918,7 +918,8 @@ a {
   display: block;
   cursor: pointer;
   position: relative;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  overflow: hidden; }
   .discovery-item:before {
     display: block;
     content: "";
@@ -931,11 +932,11 @@ a {
     right: 0;
     bottom: 0; }
   .discovery-item img.lazy {
-    width: 100%;
+    width: 105%;
     height: auto;
     position: absolute;
     top: 0;
-    left: 0; }
+    left: -2.5%; }
   .discovery-item h2, .discovery-item p {
     color: #fff;
     top: 0;
