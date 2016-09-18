@@ -103,20 +103,38 @@ Top quality scans from vintage 8mm cine film at stunning 3840 x 2160 4K resoluti
 							<div class="swiper-container">
 						        <div class="swiper-wrapper">
 						            <div class="swiper-slide">
-				            			<p>"Mediapreview and Longley Farm have worked together for nearly twenty years now. They can put together all that is needed from idea to edit; from script to soundtrack. They are totally reliable and you can be sure of a good result."</p>
-				            			<h5>Jim Dickinson, Longley Farm</h5>
+				            			<p>"By the way the kit is amazing... Totally worthy of the price!
+Now I am ready to make some beautiful work.
+Greetings from Brazil"</p>
+				            			<h5>Yuri</h5>
 						            </div>
 						            <div class="swiper-slide">
-				            			<p>"Mediapreview are a highly professional company who marry first class technical skills to a ready understanding  of a brief, and a passion for getting behind a subject."</p>
-				            			<h5>Nancy Barrett, Creative Scene</h5>
+				            			<p>"Just wanted to say thank you for your wonderful 8mm Distress Kit. It's exactly what I was looking for!"</p>
+				            			<h5>Jenny</h5>
 						            </div>
 						             <div class="swiper-slide">
-				            			<p>"Mediapreview are a highly professional company who marry first class technical skills to a ready understanding  of a brief, and a passion for getting behind a subject."</p>
-				            			<h5>Nancy Barrett, Creative Scene</h5>
+				            			<p>"It's a great, easy to use product."
+Aloha from Hawaii"</p>
+				            			<h5>PF Bentley</h5>
 						            </div>
 						            <div class="swiper-slide">
-				            			<p>Mediapreview keep leaving their chewing gum on the side of the table and it's really annoying.</p>
-				            			<h5>Tom Wicks, Miln</h5>
+				            			<p>"Thanks for that great kit,.:) I love it,..that was the one I was searching for a month,.:) greetings from Germany."</p>
+				            			<h5>Kenneth</h5>
+				            			</div>
+						            <div class="swiper-slide">
+				            			<p>"Your 8mm distress kit was a lifesaver on one of my videos
+thought I'd send it your way
+http://www.youtube.com/watch?v=vr76zDbIOsI
+I'll be recommending it to every editor I know."</p>
+				            			<h5>Gareth</h5>
+				            			</div>
+				            			  <div class="swiper-slide">
+				            			<p>"I just purchased and downloaded your Super 8 Distress Pack. I love it!  I've been searching for years for a way to bring some of the magic of Super 8 to my movies. I've finally found it!  
+
+Thanks for making your product so affordable.  I bought XXXXX, and became disillusioned with it fairly quickly.  It's neat, but lacks the organic feel of your footage.  Also, it cost about three times as much.  :(  
+
+Keep up the great work.  Thanks for the nice tutorials, too."</p>
+				            			<h5>Ken</h5>
 						            </div>
 						        </div>
 						    </div>
