@@ -7,16 +7,16 @@
 </head>
 <body>
 	<?php include 'includes/header.php'; ?>
-	<article class="depot-collection">
+	<article class="depot-collection contemporary-london">
 		<section class="hero">
 			<div class="grid-container">
 				<div class="row">
 					<div class="col-6">
-						<h2>Vintage London - Fings Ain't what they used t'be</h2>
+						<div class="image">
+							<iframe src="https://player.vimeo.com/video/106743108?api=1" width="150" height="85" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						</div>
+						<h2>Contemporary London</h2>
 					</div> <!-- col-6 -->
-					<div class="col-3">
-						<p>1920x1080 HD 25fps - some at 2k Photo JPEG codec Not scaled or stabilised.</p>
-					</div>
 				</div> <!-- row -->
 			</div> <!-- grid-container -->
 		</section> <!-- hero -->

@@ -32,7 +32,7 @@ MM_reloadPage(true);
 						<p>It's all on the 8mm Distress Kit 4K.
 Top quality scans from vintage 8mm cine film at stunning 3840 x 2160 4K resolution.</p>
 						<p>Overlay on your footage and transitions to add a sexy flourish, a touch of grunge or get that totally messed-up look!</p>
-						<a class="link-one">Preview Clips</a>
+						<a class="link-one js-distress-preview">Preview Clips</a>
 						<a href="https://s3-us-west-2.amazonaws.com/mediapreviewhdsue674hdhf/DK8gfsggsjjdjdj/8mmDistressKit4K_FreeSamples.zip" class="link-one right-link">Free Samples</a>
 						<a href="#faq" class="link-one arrow-down">More Info</a>
 					</div> <!-- col-4 shift-1 -->
@@ -143,6 +143,35 @@ Keep up the great work.  Thanks for the nice tutorials, too."</p>
 				</div> <!-- row -->
 			</div> <!-- grid-container -->
 		</section> <!-- longform -->
+		<section class="lightbox">
+			<div class="grid-container">
+				<div class="col-6">
+					<div class="distress-switcher distress-options active">
+						<div class="image">
+							<a title="distress-video-one" class="link-btn-one js-8mm-link">Preview Distress Kit Classic</a>
+							<a title="distress-video-two" class="link-btn-one js-8mm-link">Preview Distress Kit Premium</a>
+						</div>
+					</div>
+					<div class="distress-switcher distress-video-one">
+						<div class="image">
+							<iframe class="lightbox-video" src="http://player.vimeo.com/video/160152293" width="150" height="85" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						</div>
+						<div class="information-holder">
+							<h4 class="lightbox-caption">Distress Kit Classic</h4>
+						</div>
+					</div>
+					<div class="distress-switcher distress-video-two">
+						<div class="image">
+							<iframe class="lightbox-video" src="http://player.vimeo.com/video/160152293" width="150" height="85" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						</div>
+						<div class="information-holder">
+							<h4 class="lightbox-caption">Distress Kit Premium</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="lightbox-bg"></div>
+		</section>
 	</article>  <!-- distress -->
 	<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script>
 	<?php include 'includes/footer.php'; ?>

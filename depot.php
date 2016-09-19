@@ -16,7 +16,7 @@
 						<h2>The Magic of 8mm Film</h2>
 						<p>We love it - here you can browse and license our fantastic, ever expanding 8mm film collections - scanned to top quality 1920 x 1080 HD.</p>
 						<p>These fresh and unique palettes will bring the magic and thrill of 8mm to your productions.</p>
-					</div> <!-- col-4 -->
+					</div> <!-- col-4 --></div>
 				</div> <!-- row -->
 			</div> <!-- grid-container -->
 		</section> <!-- hero -->
@@ -27,21 +27,18 @@
 						<a class="discovery-item" href="contemporary-london">
 							<img class="lazy" data-original="images/sd-1.jpg">
 							<h2>Contemporary London</h2>
-							<p>Stunning super 8 shots of the modern city</p>
 						</a> <!-- discovery-item -->
 					</div> <!-- col-4 -->
 					<div class="col-4">
 						<a class="discovery-item" href="vintage-london">
 							<img class="lazy" data-original="images/sd-2.jpg">
 							<h2>Vintage London</h2>
-							<p>Fings Ain't what they used t'be</p>
 						</a> <!-- discovery-item -->
 					</div> <!-- col-4 -->
 					<div class="col-4">
 						<a class="discovery-item" href="vintage-england">
 							<img class="lazy" data-original="images/sd-3.jpg">
 							<h2>Vintage England</h2>
-							<p>England of yesteryear</p>
 						</a><!-- discovery-item -->
 					</div> <!-- col-4 -->
 				</div> <!-- row -->
@@ -50,21 +47,18 @@
 						<a class="discovery-item" href="vintage-usa">
 							<img class="lazy" data-original="images/sd-4.jpg">
 							<h2>Vintage USA</h2>
-							<p>Big Apple and Big Trees</p>
 						</a> <!-- discovery-item -->
 					</div> <!-- col-4 -->
 					<div class="col-4">
 						<a class="discovery-item" href="vintage-france">
 							<img class="lazy" data-original="images/sd-5.jpg">
 							<h2>Vintage France</h2>
-							<p>Oh la la</p>
 						</a> <!-- discovery-item -->
 					</div> <!-- col-4 -->
 					<div class="col-4">
 						<a class="discovery-item" href="vintage-world">
 							<img class="lazy" data-original="images/sd-6.jpg">
 							<h2>Vintage World</h2>
-							<p>Other Places</p>
 						</a><!-- discovery-item -->
 					</div> <!-- col-4 -->
 				</div> <!-- row -->

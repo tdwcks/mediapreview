@@ -25,6 +25,23 @@ $(document).ready(function(){
     });
 });
 
+// Distress Kit Lightbox
+
+$( ".js-distress-preview" ).on( "click", function() {
+	$("body").css("overflow", "hidden");
+	$('.lightbox').addClass('active');
+});
+
+$( ".js-8mm-link" ).on( "click", function() {
+	var distress = $( this ).attr( "title" );
+	$('.distress-switcher').removeClass('active');
+	$('.' + distress).addClass('active');
+});
+
+
+
+// 8mm Depot Preview Clip
+
 $( ".js-movie-picker-item" ).on( "click", function() {
 	
 	// Get vimeo url, caption and video length from target
@@ -45,12 +62,22 @@ $( ".js-movie-picker-item" ).on( "click", function() {
  	return false;
 });
 
-$( ".lightbox-bg" ).on( "click", function() {
+// Get rid of lightbox on Depot
+
+$( ".depot .lightbox-bg" ).on( "click", function() {
 	$('.lightbox').removeClass('active');
 	$("body").css("overflow", "visible");
 	$('.lightbox-video').attr("src", "");
 });
 
+// Get rid of lightbox on 8mm
+
+$( ".distress .lightbox-bg" ).on( "click", function() {
+	$('.lightbox').removeClass('active');
+	$('.distress-switcher').removeClass('active');
+	$('.distress-options').addClass('active');
+	$("body").css("overflow", "visible");
+});
 // Contact Form 
  
 

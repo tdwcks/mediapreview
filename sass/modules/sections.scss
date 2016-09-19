@@ -594,6 +594,33 @@
 		}
 	}
 
+	.distress-switcher {
+		display: none;
+		position: relative;
+
+		.link-btn-one {
+			width: 100%;
+			position: absolute;
+			line-height: 50%;
+			height: 50%;
+			box-sizing: border-box;
+			padding-top: 14%;
+			top: 0;
+			background: $colorType;
+			color: #fff;
+			@include border-radius(0);
+			
+			&:nth-child(2) {
+				top: 50%;
+				background: darken($colorType, 10%);
+			}
+		}
+
+		&.active {
+			display: block;
+		}
+	}
+
 	&.active {
 		display: block;
 	}

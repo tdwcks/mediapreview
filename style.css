@@ -1239,6 +1239,29 @@ a {
         color: #A6A6A6;
         margin-bottom: 5px;
         border: 0; }
+  .lightbox .distress-switcher {
+    display: none;
+    position: relative; }
+    .lightbox .distress-switcher .link-btn-one {
+      width: 100%;
+      position: absolute;
+      line-height: 50%;
+      height: 50%;
+      box-sizing: border-box;
+      padding-top: 14%;
+      top: 0;
+      background: #3B3B3B;
+      color: #fff;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      -ms-border-radius: 0;
+      -o-border-radius: 0;
+      border-radius: 0; }
+      .lightbox .distress-switcher .link-btn-one:nth-child(2) {
+        top: 50%;
+        background: #222222; }
+    .lightbox .distress-switcher.active {
+      display: block; }
   .lightbox.active {
     display: block; }
   @media (max-width: 960px) {
@@ -1367,17 +1390,21 @@ a {
   padding-top: 150px;
   padding-bottom: 60px; }
   .depot .hero img {
-    opacity: 0.45; }
+    opacity: 0.5; }
   .depot .hero .row {
     margin-top: 0; }
   .depot .hero .col-4 {
     z-index: 10;
+    float: right;
     position: relative; }
   .depot .hero h2, .depot .hero p {
     text-align: left;
     color: #fff; }
   .depot .hero h2 {
     margin-bottom: 15px; }
+.depot .discovery-item h2 {
+  text-transform: uppercase;
+  top: 74%; }
 @media (max-width: 960px) {
   .depot .hero .col-4 {
     width: 100%; }
@@ -1424,6 +1451,12 @@ a {
     margin: 0 auto; }
   .depot-collection .hero .col-3 p {
     padding-top: 100px; } }
+
+.contemporary-london .hero {
+  padding-top: 150px;
+  padding-bottom: 10px; }
+.contemporary-london .hero .image {
+  margin-bottom: 50px; }
 
 .contact h4 {
   margin-bottom: 25px; }
