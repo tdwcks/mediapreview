@@ -863,15 +863,19 @@ a {
       width: calc(66.64% - 10px); } }
   @media (max-width: 960px) {
     .hero {
-      padding-bottom: 100px; }
+      padding-bottom: 0px;
+      min-height: 150px; }
       .hero img {
         width: auto;
-        height: 100%; }
+        height: 100%;
+        margin-left: -50%; }
       .hero .col-8, .hero .col-6 {
         width: 100%; } }
   @media (max-width: 595px) {
     .hero {
-      padding: 130px 0 100px 0; } }
+      padding: 260px 0 0px 0; }
+      .hero h2 {
+        text-align: left; } }
 
 .gradient {
   width: 100%;
@@ -909,6 +913,8 @@ a {
   @media (max-width: 760px) {
     .discovery .col-4 {
       width: 100%; }
+    .discovery .h2 {
+      font-size: 0.9em; }
     .discovery .col-4:last-child .discovery-item {
       margin-bottom: 0; } }
 
@@ -963,9 +969,10 @@ a {
       display: none; } }
   @media (max-width: 960px) {
     .discovery-item h2 {
-      top: 27%; }
+      top: 19%; }
     .discovery-item p {
-      display: block; } }
+      display: block;
+      top: 39%; } }
 
 .video {
   background: #3B3B3B;
@@ -1038,6 +1045,9 @@ a {
     position: absolute;
     right: -30px;
     top: -1px; }
+@media (max-width: 960px) {
+  .page-nav {
+    font-size: 1em; } }
 
 .longform {
   width: 100%;
@@ -1269,6 +1279,8 @@ a {
     .lightbox .col-6 {
       width: 100% !important; } }
 
+.home .hero h2 {
+  text-align: center; }
 .home .discovery h1 {
   padding: 10px 0; }
 .home .video h4 {
@@ -1283,6 +1295,9 @@ a {
 .movies .movie-picker-item p {
   font-size: 16px;
   margin-bottom: 15px; }
+
+.movies .hero h2 {
+  font-size: 1.3em; }
 
 .distress .video h4 {
   margin-bottom: 20px; }
@@ -1373,6 +1388,8 @@ a {
 @media (max-width: 960px) {
   .distress .video {
     padding-top: 70px; }
+  .distress .video .link-btn-two img {
+    width: 120%; }
   .distress .video a.right-link {
     margin-right: 0; }
   .distress .video .col-6 {
@@ -1415,8 +1432,11 @@ a {
 @media (max-width: 960px) {
   .depot .hero .col-4 {
     width: 100%; }
-  .depot .col-4 h2 {
-    text-align: center; }
+  .depot .hero .gradient {
+    height: 150%;
+    background-color: transparent;
+    background-image: -webkit-linear-gradient(-90deg, transparent 0%, #1e1e1e 100%);
+    background-image: linear-gradient(-180deg,transparent 0%, #1e1e1e 100%); }
   .depot .col-4 p {
     font-size: 1.1em; } }
 
@@ -1448,17 +1468,21 @@ a {
 .depot-collection .link-one:last-child {
   margin-right: 70px; }
 @media (max-width: 960px) {
+  .depot-collection .page-nav a {
+    font-size: 1em; }
+  .depot-collection .link-one {
+    float: left;
+    margin-top: 17px; }
   .depot-collection .hero {
     padding-top: 150px;
     padding-bottom: 0px; }
+  .depot-collection .hero h2 {
+    font-size: 1.6em;
+    padding-bottom: 60px; }
   .depot-collection .hero .col-3 {
-    float: none;
-    width: 100%;
-    text-align: center;
-    width: 250px;
-    display: block;
-    margin: 0 auto; }
+    width: 100%; }
   .depot-collection .hero .col-3 p {
+    font-size: 1em;
     padding-top: 100px; } }
 
 .contemporary-london .hero {

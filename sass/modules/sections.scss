@@ -57,11 +57,13 @@
 	}
 
 	@include mq("small", "max-width") {
-		padding-bottom: 100px;
+		padding-bottom: 0px;
+		min-height: 150px;
 
 		img {
 			width: auto;
 			height: 100%;
+			margin-left: -50%;
 		}
 
 		.col-8, .col-6 {
@@ -70,7 +72,11 @@
 	}
 
 	@include mq("super-small", "max-width") {
-		padding: 130px 0 100px 0;
+		padding: 260px 0 0px 0;
+
+		h2 {
+			text-align: left;
+		}
 	}
 }
 
@@ -124,6 +130,10 @@
 	@include mq("extra-small", "max-width") {
 		.col-4 {
 			width: 100%;
+		}
+
+		.h2 {
+			font-size: 0.9em;
 		}
 
 		.col-4:last-child .discovery-item {
@@ -185,11 +195,12 @@
 
 	@include mq("small", "max-width") {
 		h2 {
-			top: 27%;
+			top: 19%;
 		}
 
 		p {
 			display: block;
+			top: 39%;
 		}
 	}
 }
@@ -295,6 +306,10 @@
 			top: -1px;
 
 		}
+	}
+
+	@include mq("small", "max-width") {
+		font-size: 1em;
 	}
 }
 
