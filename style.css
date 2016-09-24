@@ -856,17 +856,6 @@ a {
     z-index: 2;
     width: 100%;
     overflow: hidden; }
-  .hero .gradient {
-    width: 100%;
-    height: 40%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 10;
-    background-color: transparent;
-    background-image: -webkit-linear-gradient(-90deg, transparent 0%, #1e1e1e 100%);
-    background-image: linear-gradient(-180deg,transparent 0%, #1e1e1e 100%); }
   @media (max-width: 1130px) {
     .hero .col-8, .hero .col-6 {
       width: -moz-calc(66.64% - 10px);
@@ -883,6 +872,18 @@ a {
   @media (max-width: 595px) {
     .hero {
       padding: 130px 0 100px 0; } }
+
+.gradient {
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background-color: transparent;
+  background-image: -webkit-linear-gradient(-90deg, transparent 0%, #1e1e1e 100%);
+  background-image: linear-gradient(-180deg,transparent 0%, #1e1e1e 100%); }
 
 .discovery {
   margin: 30px 0 0 0; }
@@ -1382,15 +1383,20 @@ a {
 .depot .discovery .discovery-item {
   margin-bottom: 0; }
   .depot .discovery .discovery-item img {
-    opacity: 0.5; }
+    opacity: 0.9; }
   @media (max-width: 960px) {
     .depot .discovery .discovery-item {
       margin-bottom: 30px; } }
 .depot .hero {
   padding-top: 150px;
   padding-bottom: 60px; }
+  .depot .hero .gradient {
+    background-color: transparent;
+    background-image: -webkit-linear-gradient(-360deg, transparent 0%, #1e1e1e 100%);
+    background-image: linear-gradient(90deg,transparent 0%, #1e1e1e 100%);
+    height: 100%; }
   .depot .hero img {
-    opacity: 0.5; }
+    opacity: 1; }
   .depot .hero .row {
     margin-top: 0; }
   .depot .hero .col-4 {
@@ -1403,8 +1409,9 @@ a {
   .depot .hero h2 {
     margin-bottom: 15px; }
 .depot .discovery-item h2 {
-  text-transform: uppercase;
-  top: 74%; }
+  text-transform: normal;
+  top: 74%;
+  z-index: 10; }
 @media (max-width: 960px) {
   .depot .hero .col-4 {
     width: 100%; }
@@ -1417,6 +1424,8 @@ a {
   padding: 0 0 0 0; }
   .depot-collection .movie-picker h5 {
     margin-bottom: 24px; }
+.depot-collection .image {
+  background: #000; }
 .depot-collection .hero .col-3 {
   float: left;
   margin-top: -50px;
@@ -1453,10 +1462,11 @@ a {
     padding-top: 100px; } }
 
 .contemporary-london .hero {
-  padding-top: 150px;
+  padding-top: 110px;
   padding-bottom: 10px; }
 .contemporary-london .hero .image {
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  box-shadow: #222222 0px 0px 10px; }
 
 .contact h4 {
   margin-bottom: 25px; }

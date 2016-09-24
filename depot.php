@@ -10,6 +10,7 @@
 	<article class="depot">
 		<section class="hero">
 		<img class="lazy" data-original="images/bg-6.jpg">
+			<div class="gradient"></div>
 			<div class="grid-container">
 				<div class="row">
 					<div class="col-4 right">
@@ -26,18 +27,21 @@
 					<div class="col-4">
 						<a class="discovery-item" href="contemporary-london">
 							<img class="lazy" data-original="images/sd-1.jpg">
+							<div class="gradient"></div>
 							<h2>Contemporary London</h2>
 						</a> <!-- discovery-item -->
 					</div> <!-- col-4 -->
 					<div class="col-4">
 						<a class="discovery-item" href="vintage-london">
 							<img class="lazy" data-original="images/sd-2.jpg">
+							<div class="gradient"></div>
 							<h2>Vintage London</h2>
 						</a> <!-- discovery-item -->
 					</div> <!-- col-4 -->
 					<div class="col-4">
 						<a class="discovery-item" href="vintage-england">
 							<img class="lazy" data-original="images/sd-3.jpg">
+							<div class="gradient"></div>
 							<h2>Vintage England</h2>
 						</a><!-- discovery-item -->
 					</div> <!-- col-4 -->
@@ -46,18 +50,21 @@
 					<div class="col-4">
 						<a class="discovery-item" href="vintage-usa">
 							<img class="lazy" data-original="images/sd-4.jpg">
+							<div class="gradient"></div>
 							<h2>Vintage USA</h2>
 						</a> <!-- discovery-item -->
 					</div> <!-- col-4 -->
 					<div class="col-4">
 						<a class="discovery-item" href="vintage-france">
 							<img class="lazy" data-original="images/sd-5.jpg">
+							<div class="gradient"></div>
 							<h2>Vintage France</h2>
 						</a> <!-- discovery-item -->
 					</div> <!-- col-4 -->
 					<div class="col-4">
 						<a class="discovery-item" href="vintage-world">
 							<img class="lazy" data-original="images/sd-6.jpg">
+							<div class="gradient"></div>
 							<h2>Vintage World</h2>
 						</a><!-- discovery-item -->
 					</div> <!-- col-4 -->

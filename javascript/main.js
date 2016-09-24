@@ -64,7 +64,7 @@ $( ".js-movie-picker-item" ).on( "click", function() {
 
 // Get rid of lightbox on Depot
 
-$( ".depot .lightbox-bg" ).on( "click", function() {
+$( ".depot-collection .lightbox-bg" ).on( "click", function() {
 	$('.lightbox').removeClass('active');
 	$("body").css("overflow", "visible");
 	$('.lightbox-video').attr("src", "");

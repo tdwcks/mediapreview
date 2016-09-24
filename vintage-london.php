@@ -17,7 +17,7 @@
 						<h2>Vintage London</h2>
 					</div> <!-- col-6 -->
 					<div class="col-3">
-						<p>1920x1080 HD 25fps - some at 2k Photo JPEG codec Not scaled or stabilised.</p>
+						<p>920x1080 HD 25fps - some at 2k </br> Photo JPEG codec. </br> Not scaled or stabilised.</p>
 					</div>
 				</div> <!-- row -->
 			</div> <!-- grid-container -->
