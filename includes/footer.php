@@ -28,3 +28,4 @@
         autoplay: 10000
     });
 </script>
+<?php include_once("analyticstracking.php") ?>

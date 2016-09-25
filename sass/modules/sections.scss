@@ -61,9 +61,12 @@
 		min-height: 150px;
 
 		img {
-			width: auto;
-			height: 100%;
-			margin-left: -50%;
+			display: block;
+			width: 300%;
+			height: auto;
+			float: none;
+			margin: 0 auto;
+			margin-left: -120%;
 		}
 
 		.col-8, .col-6 {
@@ -76,6 +79,13 @@
 
 		h2 {
 			text-align: left;
+		}
+	}
+
+	@include mq("extra-small", "max-width") {
+		img {
+			width: 350%;
+			margin-left: -100%;
 		}
 	}
 }
@@ -171,13 +181,13 @@
 	}
 
 	h2 {
-	 top: 30%;
+	 top: 20%;
 	}
 
 	p {
 	 	display: block;
 	 	margin: 0 auto;
-	 	top: 45%;
+	 	top: 40%;
 	 	float: none;
 	 	width: 68%;
 	 	margin-left: -35%;

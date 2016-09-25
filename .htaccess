@@ -3,4 +3,13 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
 
-Redirect 301 /about.html http://localhost:8888/mediapreview/movies
+Redirect http://www.mediapreview.net/movies.htm http://www.mediapreview.net/movies
+Redirect http://www.mediapreview.net/8mm.htm http://www.mediapreview.net/8mm
+Redirect http://www.mediapreview.net/stock/8mmDepot/8mmDepot.htm http://www.mediapreview.net/depot
+Redirect http://www.mediapreview.net/stock/conlon/conlon.htm http://www.mediapreview.net/contemporary-london
+Redirect http://www.mediapreview.net/stock/vl/vl.htm http://www.mediapreview.net/vintage-london
+Redirect http://www.mediapreview.net/stock/ve/ve.htm http://www.mediapreview.net/vintage-england
+Redirect http://www.mediapreview.net/stock/vu/vu.htm http://www.mediapreview.net/vintage-europe
+Redirect http://www.mediapreview.net/stock/vf/vf.htm http://www.mediapreview.net/vintage-france
+Redirect http://www.mediapreview.net/Stock/oc/oc.htm http://www.mediapreview.net/vintage-world
+
