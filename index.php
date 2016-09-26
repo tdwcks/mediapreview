@@ -8,6 +8,7 @@
 <meta name="keywords" content="video production,video,production,free after effects tutorials,expert, conversations, adobe after effects tutorials,  after effects tutorials,adobe premiere,adobe premiere tutorials, final, cut, pro, final, cut, pro, tutorials, adobe after effects, motion graphics, animation, digital, video, video tutorials, animation, free tutorials,stock, 8mm distress kit, stock footage, vintage stock footage, retro stock footage, 8mm stock footage, london stock footage, france stock footage, paris stock footage, england stock footage, usa stock footage, america stock footage, new york stock footage, cine film, 8mm, super 8, standard 8, old film, film effects, old film effects, film damage, 8mm cine effects, cine film effects, grunge, dust and scratches, amateur, vj, editorial, archive film, royally free, download, 1950's, 1960's, 1970's, old fashioned, classic, home movies">
 </head>
 <body>
+	<?php include_once("analyticstracking.php") ?>
 	<?php include 'includes/header.php'; ?>
 	<article class="home">
 		<section class="hero">

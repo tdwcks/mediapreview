@@ -81,7 +81,6 @@ $( ".distress .lightbox-bg" ).on( "click", function() {
 // Contact Form 
  
 
-
 	// Get the form.
 	var form = $('#ajax-contact');
 
@@ -127,5 +126,4 @@ $( ".distress .lightbox-bg" ).on( "click", function() {
 				$(formMessages).text('Oops! An error occured and your message could not be sent.');
 			}
 		});
-
 	});

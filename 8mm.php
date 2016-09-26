@@ -33,7 +33,7 @@ MM_reloadPage(true);
 </script>
 
 <body>
-
+	<?php include_once("analyticstracking.php") ?>
 	<?php include 'includes/header.php'; ?>
 
 	<article class="distress">

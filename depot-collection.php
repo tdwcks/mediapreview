@@ -6,6 +6,7 @@
 <title>MediaPreview &#8594; Stock Footage Depot</title>
 </head>
 <body>
+	<?php include_once("analyticstracking.php") ?>
 	<?php include 'includes/header.php'; ?>
 	<article class="depot-collection">
 		<section class="hero">

@@ -8,6 +8,7 @@
 </head>
 </head>
 <body>
+	<?php include_once("analyticstracking.php") ?>
 	<?php include 'includes/header.php'; ?>
 	<article class="movies">
 		<section class="hero">
@@ -75,7 +76,7 @@ at the Leeds retail space.</p>
 					<div class="col-4">
 						<div class="movie-picker-item">
 							<div class="image"><iframe src="//player.vimeo.com/video/178164456?color=ffffff&amp;title=0&amp;byline=0&amp;portrait=0" width="100%" height="100%" frameborder="0" class="landscape pri" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></div>
-							<h4>Let’s Fly Away - Trailer</h4>
+							<h4>Let&rsquo;s Fly Away - Trailer</h4>
 							<p>Shabang's Captain Roland Groove and his trusty assistant Reenie on a magical musical flight like no other.</p>
 							<h5>4 Mins<span>2016</span></h5>
 						</div> <!-- movie-picker -->

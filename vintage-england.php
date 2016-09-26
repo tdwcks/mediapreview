@@ -8,6 +8,7 @@
 </head>
 </head>
 <body>
+	<?php include_once("analyticstracking.php") ?>
 	<?php include 'includes/header.php'; ?>
 	<article class="depot-collection">
 		<section class="hero">
