@@ -42,6 +42,25 @@
 // 	Tutorial
 // =================================================================
 
+.tutorials {
+	.hero p {
+		color: #fff;
+		text-align: center;
+
+		a {
+			color: #fff;
+			border-bottom: 2px solid #fff;
+		}
+	}
+
+	@include mq("small", "max-width") {
+		.hero p {
+			text-align: left;
+			width: 220px;
+		}
+	}
+}
+
 // 	Movie
 // =================================================================
 

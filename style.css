@@ -1295,6 +1295,17 @@ a {
   .about .hero {
     font-size: 0.9em; } }
 
+.tutorials .hero p {
+  color: #fff;
+  text-align: center; }
+  .tutorials .hero p a {
+    color: #fff;
+    border-bottom: 2px solid #fff; }
+@media (max-width: 960px) {
+  .tutorials .hero p {
+    text-align: left;
+    width: 220px; } }
+
 @media (max-width: 960px) {
   .movie .discovery .row .col-4:last-child {
     display: none; } }
