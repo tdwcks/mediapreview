@@ -15,7 +15,7 @@
 				<div class="row">
 					<div class="col-6">
 						<h2>We're in the process of updating our Tutorials</h2>
-						<p><a href="mailto:admin@mediapreview.net">Send us a mail</a> and we'll let you know when we're back up.</p>
+						<p><a href="contact">Send us a mail</a> and we'll let you know when we're back up.</p>
 						<p></p>
 					</div> <!-- col-6 -->
 				</div> <!-- row -->

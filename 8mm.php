@@ -88,7 +88,7 @@ Top quality scans from vintage 8mm cine film at stunning 3840 x 2160 4K resoluti
 
 							<p>Our top seller since 2009, now re-scanned to stunning 4k resolution</p>
 
-							<h4>Buy 32 Clips - &#163;55</h4>
+							<h4>Buy 32 Clips - &#36;55 USD</h4>
 
 						</a>	
 
@@ -104,7 +104,7 @@ Top quality scans from vintage 8mm cine film at stunning 3840 x 2160 4K resoluti
 
 							<p>For those who can't get enough! - all the CLASSIC clips plus 32 extras</p>
 
-							<h4>Buy 64 Clips - &#163;89</h4>
+							<h4>Buy 64 Clips - &#36;89 USD</h4>
 
 						</a>
 
@@ -120,7 +120,7 @@ Top quality scans from vintage 8mm cine film at stunning 3840 x 2160 4K resoluti
 
 							<p>Upgrade from CLASSIC and all previous versions to 4k PREMIUM</p>
 
-							<h4>UPGRADE - &#163;39</h4>
+							<h4>UPGRADE - &#36;39 USD</h4>
 
 						</a>
 
